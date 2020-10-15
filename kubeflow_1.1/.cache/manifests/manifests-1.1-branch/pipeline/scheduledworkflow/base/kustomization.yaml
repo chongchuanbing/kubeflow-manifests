@@ -11,6 +11,6 @@ resources:
 - role.yaml
 - service-account.yaml
 images:
-- name: gcr.io/ml-pipeline/scheduledworkflow
+- name: harbor.ihomefnt.com/ai/ml-pipeline.scheduledworkflow
   newTag: 0.2.5
-  newName: gcr.io/ml-pipeline/scheduledworkflow
+  newName: harbor.ihomefnt.com/ai/ml-pipeline.scheduledworkflow

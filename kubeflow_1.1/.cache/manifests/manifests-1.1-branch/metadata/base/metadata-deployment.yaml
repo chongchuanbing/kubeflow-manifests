@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: container
-        image: gcr.io/kubeflow-images-public/metadata:v0.1.11
+        image: harbor.ihomefnt.com/ai/kubeflow-images-public.metadata:v0.1.11
         command: ["./server/server",
                   "--http_port=8080"]
         ports:

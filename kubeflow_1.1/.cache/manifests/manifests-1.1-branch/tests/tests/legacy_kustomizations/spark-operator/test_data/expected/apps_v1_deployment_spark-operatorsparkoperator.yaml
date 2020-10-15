@@ -53,7 +53,7 @@ spec:
         - -metrics-port=10254
         - -metrics-endpoint=/metrics
         - -metrics-prefix=
-        image: gcr.io/spark-operator/spark-operator:v1beta2-1.1.0-2.4.5
+        image: harbor.ihomefnt.com/ai/spark-operator.spark-operator:v1beta2-1.1.0-2.4.5
         imagePullPolicy: IfNotPresent
         name: sparkoperator
         ports:

@@ -21,11 +21,11 @@ images:
 - name: gcr.io/kubeflow-images-public/envoy
   newName: gcr.io/kubeflow-images-public/envoy
   newTag: v20180309-0fb4886b463698702b6a08955045731903a18738
-- name: gcr.io/kubeflow-images-public/ingress-setup
-  newName: gcr.io/kubeflow-images-public/ingress-setup
+- name: harbor.ihomefnt.com/ai/kubeflow-images-public.ingress-setup
+  newName: harbor.ihomefnt.com/ai/kubeflow-images-public.ingress-setup
   newTag: latest
-- name: gcr.io/cloud-solutions-group/esp-sample-app
-  newName: gcr.io/cloud-solutions-group/esp-sample-app
+- name: harbor.ihomefnt.com/ai/cloud-solutions-group.esp-sample-app
+  newName: harbor.ihomefnt.com/ai/cloud-solutions-group.esp-sample-app
   newTag: 1.0.0
 configMapGenerator:
 - name: parameters

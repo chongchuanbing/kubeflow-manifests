@@ -43,7 +43,7 @@ spec:
             configMapKeyRef:
               key: gcp-sa
               name: profiles-profiles-config-4mgcmtgk6t
-        image: gcr.io/kubeflow-images-public/profile-controller:vmaster-g34aa47c2
+        image: harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller:vmaster-g34aa47c2
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
@@ -81,7 +81,7 @@ spec:
             configMapKeyRef:
               key: admin
               name: profiles-profiles-config-4mgcmtgk6t
-        image: gcr.io/kubeflow-images-public/kfam:v1.1.0-g9f3bfd00
+        image: harbor.ihomefnt.com/ai/kubeflow-images-public.kfam:v1.1.0-g9f3bfd00
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

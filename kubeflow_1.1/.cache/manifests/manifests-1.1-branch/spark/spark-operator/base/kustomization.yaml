@@ -3,8 +3,8 @@ commonLabels:
   app.kubernetes.io/name: sparkoperator
   kustomize.component: spark-operator
 images:
-- name: gcr.io/spark-operator/spark-operator
-  newName: gcr.io/spark-operator/spark-operator
+- name: harbor.ihomefnt.com/ai/spark-operator.spark-operator
+  newName: harbor.ihomefnt.com/ai/spark-operator.spark-operator
   newTag: v1beta2-1.1.0-2.4.5
 kind: Kustomization
 namePrefix: spark-operator

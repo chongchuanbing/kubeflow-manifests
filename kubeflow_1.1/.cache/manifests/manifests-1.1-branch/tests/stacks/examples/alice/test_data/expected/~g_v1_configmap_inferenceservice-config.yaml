@@ -27,7 +27,7 @@ data:
     }
   logger: |-
     {
-        "image" : "gcr.io/kfserving/logger:v0.3.0",
+        "image" : "harbor.ihomefnt.com/ai/kfserving.logger:v0.3.0",
         "memoryRequest": "100Mi",
         "memoryLimit": "1Gi",
         "cpuRequest": "100m",
@@ -90,7 +90,7 @@ data:
     }
   storageInitializer: |-
     {
-        "image" : "gcr.io/kfserving/storage-initializer:v0.3.0",
+        "image" : "harbor.ihomefnt.com/ai/kfserving.storage-initializer:v0.3.0",
         "memoryRequest": "100Mi",
         "memoryLimit": "1Gi",
         "cpuRequest": "100m",

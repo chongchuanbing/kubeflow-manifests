@@ -16,7 +16,7 @@ spec:
         sidecar.istio.io/inject: "false"
     spec:
       containers:
-      - image: gcr.io/ml-pipeline/visualization-server
+      - image: harbor.ihomefnt.com/ai/ml-pipeline.visualization-server
         imagePullPolicy: IfNotPresent
         name: ml-pipeline-visualizationserver
         ports:

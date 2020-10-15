@@ -14,7 +14,7 @@ spec:
       - env:
         - name: PORT
           value: "8081"
-        image: gcr.io/cloud-solutions-group/esp-sample-app:1.0.0
+        image: harbor.ihomefnt.com/ai/cloud-solutions-group.esp-sample-app:1.0.0
         name: app
         ports:
         - containerPort: 8081
@@ -54,7 +54,7 @@ spec:
           value: http://localhost:8001
         - name: USE_ISTIO
           value: "true"
-        image: gcr.io/kubeflow-images-public/ingress-setup:latest
+        image: harbor.ihomefnt.com/ai/kubeflow-images-public.ingress-setup:latest
         name: iap
         volumeMounts:
         - mountPath: /var/envoy-config/

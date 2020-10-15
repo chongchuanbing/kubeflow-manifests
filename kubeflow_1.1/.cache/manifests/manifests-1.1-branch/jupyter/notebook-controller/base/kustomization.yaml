@@ -17,8 +17,8 @@ commonLabels:
   app: notebook-controller
   kustomize.component: notebook-controller
 images:
-- name: gcr.io/kubeflow-images-public/notebook-controller
-  newName: gcr.io/kubeflow-images-public/notebook-controller
+- name: harbor.ihomefnt.com/ai/kubeflow-images-public.notebook-controller
+  newName: harbor.ihomefnt.com/ai/kubeflow-images-public.notebook-controller
   newTag: v1.1.0-gd3377cbd
 configMapGenerator:
 - envs:

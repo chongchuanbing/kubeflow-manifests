@@ -8,8 +8,8 @@ commonLabels:
 namePrefix: jupyter-web-app-
 namespace: kubeflow
 images:
-- name: gcr.io/kubeflow-images-public/jupyter-web-app
-  newName: gcr.io/kubeflow-images-public/jupyter-web-app
+- name: harbor.ihomefnt.com/ai/kubeflow-images-public.jupyter-web-app
+  newName: harbor.ihomefnt.com/ai/kubeflow-images-public.jupyter-web-app
   newTag: vmaster-gd9be4b9e
 resources:
 - ../../../../../jupyter/jupyter-web-app/base/cluster-role-binding.yaml

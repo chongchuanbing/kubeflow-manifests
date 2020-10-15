@@ -4,11 +4,11 @@ namePrefix: profiles-
 commonLabels:
   kustomize.component: profiles
 images:
-- name: gcr.io/kubeflow-images-public/kfam
-  newName: gcr.io/kubeflow-images-public/kfam
+- name: harbor.ihomefnt.com/ai/kubeflow-images-public.kfam
+  newName: harbor.ihomefnt.com/ai/kubeflow-images-public.kfam
   newTag: v1.1.0-g9f3bfd00
-- name: gcr.io/kubeflow-images-public/profile-controller
-  newName: gcr.io/kubeflow-images-public/profile-controller
+- name: harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller
+  newName: harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller
   newTag: vmaster-g34aa47c2
 resources:
 - ../base/cluster-role-binding.yaml

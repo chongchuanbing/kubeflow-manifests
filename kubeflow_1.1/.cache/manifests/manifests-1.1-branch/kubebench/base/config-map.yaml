@@ -7,7 +7,7 @@ data:
     defaultWorkflowAgent:
       container:
         name: kubebench-workflow-agent
-        image: gcr.io/kubeflow-images-public/kubebench/workflow-agent:bc682c1
+        image: harbor.ihomefnt.com/ai/kubeflow-images-public.kubebench.workflow-agent:bc682c1
     defaultManagedVolumes:
       experimentVolume:
         name: kubebench-experiment-volume

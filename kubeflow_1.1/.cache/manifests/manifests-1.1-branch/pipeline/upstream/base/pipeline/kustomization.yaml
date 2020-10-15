@@ -35,15 +35,15 @@ resources:
 - container-builder-sa.yaml
 - viewer-sa.yaml
 images:
-- name: gcr.io/ml-pipeline/api-server
+- name: harbor.ihomefnt.com/ai/ml-pipeline.api-server
   newTag: 1.0.0
-- name: gcr.io/ml-pipeline/persistenceagent
+- name: harbor.ihomefnt.com/ai/ml-pipeline.persistenceagent
   newTag: 1.0.0
-- name: gcr.io/ml-pipeline/scheduledworkflow
+- name: harbor.ihomefnt.com/ai/ml-pipeline.scheduledworkflow
   newTag: 1.0.0
-- name: gcr.io/ml-pipeline/frontend
+- name: harbor.ihomefnt.com/ai/ml-pipeline.frontend
   newTag: 1.0.0
-- name: gcr.io/ml-pipeline/viewer-crd-controller
+- name: harbor.ihomefnt.com/ai/ml-pipeline.viewer-crd-controller
   newTag: 1.0.0
-- name: gcr.io/ml-pipeline/visualization-server
+- name: harbor.ihomefnt.com/ai/ml-pipeline.visualization-server
   newTag: 1.0.0

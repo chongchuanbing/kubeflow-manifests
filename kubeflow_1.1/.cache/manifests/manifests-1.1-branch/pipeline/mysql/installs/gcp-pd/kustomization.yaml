@@ -11,9 +11,9 @@ resources:
 patchesStrategicMerge:
 - persistent-volume-claim.yaml
 images:
-- name: gcr.io/ml-pipeline/mysql
+- name: harbor.ihomefnt.com/ai/ml-pipeline.mysql
   newTag: '5.6'
-  newName: gcr.io/ml-pipeline/mysql
+  newName: harbor.ihomefnt.com/ai/ml-pipeline.mysql
 configMapGenerator:
 - name: pipeline-mysql-install-config
   envs:

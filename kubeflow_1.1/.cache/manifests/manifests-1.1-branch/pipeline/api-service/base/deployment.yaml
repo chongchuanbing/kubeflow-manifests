@@ -15,7 +15,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: metadata.namespace
-        image: gcr.io/ml-pipeline/api-server
+        image: harbor.ihomefnt.com/ai/ml-pipeline.api-server
         imagePullPolicy: IfNotPresent
         command:
           - apiserver

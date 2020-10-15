@@ -17,6 +17,6 @@ spec:
         command:
         - /root/manager
         - -mode=in-cluster
-        image: gcr.io/kubeflow-images-public/xgboost-operator:v0.1.0
+        image: harbor.ihomefnt.com/ai/kubeflow-images-public.xgboost-operator:v0.1.0
         imagePullPolicy: Always
       serviceAccountName: service-account

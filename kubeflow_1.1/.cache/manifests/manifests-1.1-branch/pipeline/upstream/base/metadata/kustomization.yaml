@@ -7,5 +7,5 @@ resources:
 - metadata-envoy-deployment.yaml
 - metadata-envoy-service.yaml
 images:
-- name: gcr.io/ml-pipeline/metadata-envoy
+- name: harbor.ihomefnt.com/ai/ml-pipeline.metadata-envoy
   newTag: 1.0.0

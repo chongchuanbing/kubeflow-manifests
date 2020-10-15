@@ -39,7 +39,7 @@ spec:
         kustomize.component: cloud-endpoints
     spec:
       containers:
-      - image: gcr.io/cloud-solutions-group/cloud-endpoints-controller:0.2.1
+      - image: harbor.ihomefnt.com/ai/cloud-solutions-group.cloud-endpoints-controller:0.2.1
         imagePullPolicy: Always
         name: cloud-endpoints-controller
         readinessProbe:

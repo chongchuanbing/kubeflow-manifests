@@ -29,6 +29,6 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: metadata.name
-        image: gcr.io/kubeflow-images-public/pytorch-operator:v0.6.0-18-g5e36a57
+        image: harbor.ihomefnt.com/ai/kubeflow-images-public.pytorch-operator:v0.6.0-18-g5e36a57
         name: pytorch-operator
       serviceAccountName: pytorch-operator

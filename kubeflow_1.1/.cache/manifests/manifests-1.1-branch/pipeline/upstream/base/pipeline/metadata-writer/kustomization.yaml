@@ -6,5 +6,5 @@ resources:
 - metadata-writer-rolebinding.yaml
 - metadata-writer-sa.yaml
 images:
-- name: gcr.io/ml-pipeline/metadata-writer
+- name: harbor.ihomefnt.com/ai/ml-pipeline.metadata-writer
   newTag: 1.0.0

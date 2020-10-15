@@ -29,8 +29,8 @@ vars:
 configurations:
 - params.yaml
 images:
-- name: gcr.io/kubebuilder/kube-rbac-proxy
-  newName: gcr.io/kubebuilder/kube-rbac-proxy
+- name: harbor.ihomefnt.com/ai/kubebuilder.kube-rbac-proxy
+  newName: harbor.ihomefnt.com/ai/kubebuilder.kube-rbac-proxy
   newTag: v0.4.0
 - name: $(registry)/kfserving-controller
   newName: $(registry)/kfserving-controller

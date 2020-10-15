@@ -15,8 +15,8 @@ configMapGenerator:
   - ISTIO_GATEWAY=kubeflow/kubeflow-gateway
   name: config
 images:
-- name: gcr.io/kubeflow-images-public/notebook-controller
-  newName: gcr.io/kubeflow-images-public/notebook-controller
+- name: harbor.ihomefnt.com/ai/kubeflow-images-public.notebook-controller
+  newName: harbor.ihomefnt.com/ai/kubeflow-images-public.notebook-controller
   newTag: vmaster-gf39279c0
 patchesStrategicMerge:
 - deployment_patch.yaml

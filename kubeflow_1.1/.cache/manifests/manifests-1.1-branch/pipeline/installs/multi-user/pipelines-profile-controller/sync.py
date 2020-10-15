@@ -96,7 +96,7 @@ class Controller(BaseHTTPRequestHandler):
                         "spec": {
                             "containers": [{
                                 "image":
-                                "gcr.io/ml-pipeline/visualization-server:" +
+                                "harbor.ihomefnt.com/ai/ml-pipeline.visualization-server:" +
                                 kfp_version,
                                 "imagePullPolicy":
                                 "IfNotPresent",
@@ -211,7 +211,7 @@ class Controller(BaseHTTPRequestHandler):
                                 "name":
                                 "ml-pipeline-ui-artifact",
                                 "image":
-                                "gcr.io/ml-pipeline/frontend:" + kfp_version,
+                                "harbor.ihomefnt.com/ai/ml-pipeline.frontend:" + kfp_version,
                                 "imagePullPolicy":
                                 "IfNotPresent",
                                 "ports": [{

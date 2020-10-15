@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: gcr.io/ml-pipeline/cache-server:dummy
+        image: harbor.ihomefnt.com/ai/ml-pipeline.cache-server:dummy
         env:
           - name: DBCONFIG_DRIVER
             value: mysql

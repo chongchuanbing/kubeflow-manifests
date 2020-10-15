@@ -14,6 +14,6 @@ configMapGenerator:
   - params.env
   name: xgboost-operator-config
 images:
-- name: gcr.io/kubeflow-images-public/xgboost-operator
-  newName: gcr.io/kubeflow-images-public/xgboost-operator
+- name: harbor.ihomefnt.com/ai/kubeflow-images-public.xgboost-operator
+  newName: harbor.ihomefnt.com/ai/kubeflow-images-public.xgboost-operator
   newTag: vmaster-g8f8c3f96

@@ -18,7 +18,7 @@ spec:
       - name: manager
         command:
         - /root/manager
-        image: gcr.io/kubeflow-images-public/kubernetes-sigs/application
+        image: harbor.ihomefnt.com/ai/kubeflow-images-public.kubernetes-sigs.application
         imagePullPolicy: Always
         env:
         # TODO(https://github.com/kubeflow/manifests/issues/1043)

@@ -12,9 +12,9 @@ configMapGenerator:
   envs:
   - params.env
 images:
-- name: gcr.io/ml-pipeline/frontend
+- name: harbor.ihomefnt.com/ai/ml-pipeline.frontend
   newTag: 0.2.5
-  newName: gcr.io/ml-pipeline/frontend
+  newName: harbor.ihomefnt.com/ai/ml-pipeline.frontend
 vars:
 - name: ui-namespace
   objref:

@@ -10,19 +10,19 @@ configMapGenerator:
 images:
 - name: docker.io/prom/prometheus
   newTag: v2.8.0
-- name: gcr.io/istio-release/citadel
+- name: harbor.ihomefnt.com/ai/istio-release.citadel
   newTag: release-1.3-latest-daily
-- name: gcr.io/istio-release/galley
+- name: harbor.ihomefnt.com/ai/istio-release.galley
   newTag: release-1.3-latest-daily
-- name: gcr.io/istio-release/kubectl
+- name: harbor.ihomefnt.com/ai/istio-release.kubectl
   newTag: release-1.3-latest-daily
-- name: gcr.io/istio-release/mixer
+- name: harbor.ihomefnt.com/ai/istio-release.mixer
   newTag: release-1.3-latest-daily
-- name: gcr.io/istio-release/node-agent-k8s
+- name: harbor.ihomefnt.com/ai/istio-release.node-agent-k8s
   newTag: release-1.3-latest-daily
-- name: gcr.io/istio-release/pilot
+- name: harbor.ihomefnt.com/ai/istio-release.pilot
   newTag: release-1.3-latest-daily
-- name: gcr.io/istio-release/proxyv2
+- name: harbor.ihomefnt.com/ai/istio-release.proxyv2
   newTag: release-1.3-latest-daily
 - name: gcr.io/istio-release/sidecar_injector
   newTag: release-1.3-latest-daily

@@ -8,6 +8,6 @@ resources:
 - ../../../upstream/env/platform-agnostic/mysql
 - ../../overlays/application/application.yaml
 images:
-- name: gcr.io/ml-pipeline/mysql
+- name: harbor.ihomefnt.com/ai/ml-pipeline.mysql
   newTag: '5.6'
-  newName: gcr.io/ml-pipeline/mysql
+  newName: harbor.ihomefnt.com/ai/ml-pipeline.mysql

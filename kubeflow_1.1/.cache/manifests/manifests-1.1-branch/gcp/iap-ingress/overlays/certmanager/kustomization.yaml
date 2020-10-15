@@ -9,6 +9,6 @@ namespace: kubeflow
 commonLabels:
   kustomize.component: iap-ingress
 images:
-- name: gcr.io/kubeflow-images-public/ingress-setup
-  newName: gcr.io/kubeflow-images-public/ingress-setup
+- name: harbor.ihomefnt.com/ai/kubeflow-images-public.ingress-setup
+  newName: harbor.ihomefnt.com/ai/kubeflow-images-public.ingress-setup
   newTag: latest

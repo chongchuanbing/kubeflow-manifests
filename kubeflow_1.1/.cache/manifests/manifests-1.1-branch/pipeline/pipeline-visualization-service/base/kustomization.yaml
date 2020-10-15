@@ -6,6 +6,6 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
-- name: gcr.io/ml-pipeline/visualization-server
+- name: harbor.ihomefnt.com/ai/ml-pipeline.visualization-server
   newTag: 0.2.5
-  newName: gcr.io/ml-pipeline/visualization-server
+  newName: harbor.ihomefnt.com/ai/ml-pipeline.visualization-server

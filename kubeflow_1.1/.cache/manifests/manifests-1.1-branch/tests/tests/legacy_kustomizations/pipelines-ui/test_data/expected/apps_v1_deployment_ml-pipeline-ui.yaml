@@ -42,7 +42,7 @@ spec:
           value: /etc/config/viewer-pod-template.json
         - name: ALLOW_CUSTOM_VISUALIZATIONS
           value: "true"
-        image: gcr.io/ml-pipeline/frontend:0.2.5
+        image: harbor.ihomefnt.com/ai/ml-pipeline.frontend:0.2.5
         imagePullPolicy: IfNotPresent
         name: ml-pipeline-ui
         ports:

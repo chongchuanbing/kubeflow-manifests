@@ -17,5 +17,6 @@
 
 grep -o -h -R -E 'gcr.io/[a-zA-Z0-9/.@-]+:[a-zA-Z0-9.-]+' .cache | uniq |sort -u >> 'images_list'
 
+python image_deal.py
 
 ```

@@ -41,7 +41,7 @@ spec:
                 path: tls.crt
       containers:
       - name: authservice
-        image: gcr.io/arrikto/kubeflow/oidc-authservice:v0.3
+        image: harbor.ihomefnt.com/ai/arrikto.kubeflow.oidc-authservice:v0.3
         imagePullPolicy: Always
         ports:
         - name: http-api

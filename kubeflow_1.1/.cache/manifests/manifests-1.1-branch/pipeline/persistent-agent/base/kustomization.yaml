@@ -9,6 +9,6 @@ resources:
 - deployment.yaml
 - service-account.yaml
 images:
-- name: gcr.io/ml-pipeline/persistenceagent
+- name: harbor.ihomefnt.com/ai/ml-pipeline.persistenceagent
   newTag: 0.2.5
-  newName: gcr.io/ml-pipeline/persistenceagent
+  newName: harbor.ihomefnt.com/ai/ml-pipeline.persistenceagent

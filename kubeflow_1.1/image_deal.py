@@ -3,15 +3,15 @@
 import os
 import signal
 
+from tqdm import tqdm
 from multiprocessing import cpu_count, Pool
 
-git_base_path = '/Users/chongchuanbing/Documents/git/gcr.io-images/kubeflow1.1'
-# image_base = '/Users/chongchuanbing/Downloads/kubeflow_1.1_images'
-image_base = '/Users/chongchuanbing/Downloads/images.txt'
+git_base_path = '../../gcr.io-images/kubeflow1.1'
+image_base = './images_list'
 
-docker_commond_path = '/Users/chongchuanbing/Downloads/kubeflow_1.1_images_cmd'
+docker_commond_path = './kubeflow_1.1_images_cmd'
 
-docker_gcr_commond_path = '/Users/chongchuanbing/Downloads/kubeflow_1.1_images_gcr_cmd'
+docker_gcr_commond_path = './kubeflow_1.1_images_gcr_cmd'
 
 def init_worker():
     signal.signal(signal.SIGINT, signal.SIG_IGN)
@@ -60,8 +60,15 @@ for line in lines:
 
     arr = line.split(':')
 
-    name = arr[0]
-    version = arr[1]
+    old_name = arr[0]
+    old_version = arr[1]
+    
+    name = old_name
+    version = old_version
+    
+    if '@sha256' in line:
+        name = name.replace('@sha256', '')
+        version = 'lastest'
 
     print(name + ':' + version)
 
@@ -129,7 +136,7 @@ for line in lines:
     docker_hub_tag_cmd = 'docker tag %s %s' % (line, hub_new_tag)
     docker_hub_tag_cmd_arr.append(docker_hub_tag_cmd)
     docker_hub_tag_cmd_arr.append('\n')
-    print(docker_gcr_tag_cmd)
+    print(docker_hub_tag_cmd)
 
     # docker hub push
     docker_hub_push_cmd = 'docker push %s' % hub_new_tag
@@ -137,16 +144,31 @@ for line in lines:
     docker_hub_push_cmd_arr.append('\n')
     print(docker_hub_push_cmd)
 
+    if '@sha256' in line:
+        sed_cmd_special = 'grep -rl "%s" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?%s?%s:%s?"' % (line, line, sed_image, version)
+        sed_cmd_arr.append(sed_cmd_special)
+        sed_cmd_arr.append('\n')
+
     sed_image = 'harbor.ihomefnt.com/ai/%s' % image_name
     sed_cmd = 'grep -rl "%s" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?%s?%s?"' % (name, name, sed_image)
     sed_cmd_arr.append(sed_cmd)
+    
     sed_cmd_arr.append('\n')
     print(sed_cmd)
 
-    system_cmd_exec_arr.append([docker_gcr_pull_cmd, docker_gcr_tag_cmd, docker_gcr_push_cmd, sed_cmd])
+    arr = []
+#     arr.append(docker_gcr_pull_cmd)
+#     arr.append(docker_gcr_tag_cmd)
 
-    # os.popen(docker_gcr_tag_cmd)
-    # os.popen(docker_hub_push_cmd)
+#     arr.append(docker_gcr_push_cmd)
+    if '@sha256' in line:
+        arr.append(sed_cmd_special)    
+    arr.append(sed_cmd)
+    
+#     arr.append(docker_hub_tag_cmd)
+#     arr.append(docker_hub_push_cmd)
+
+    system_cmd_exec_arr.append(arr)
 
 
 with open(docker_commond_path, 'w') as f:
@@ -175,14 +197,14 @@ with open(docker_gcr_commond_path, 'w') as f:
 def cmd_deal(system_cmd_exec_arr):
     try:
         for item in system_cmd_exec_arr:
-            for cmd_item in item:
-                with os.popen(cmd_item) as f:
-                    print(f.read())
+            print('========', item)
+            with os.popen(item) as f:
+                print(f.read())
     except Exception as error:
         # logger.error(error)
         # logger.error(traceback.print_exc())
         return None
 
-multi_process_map_async(cmd_deal, system_cmd_exec_arr)
+multi_process_map_async(cmd_deal, tqdm(system_cmd_exec_arr))
 
 

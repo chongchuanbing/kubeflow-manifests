@@ -40,7 +40,7 @@ spec:
         env:
         - name: project
           value: jlewi-dev
-        image: gcr.io/kubeflow-images-public/kubernetes-sigs/application:1.0-beta
+        image: harbor.ihomefnt.com/ai/kubeflow-images-public.kubernetes-sigs.application:1.0-beta
         imagePullPolicy: Always
         name: manager
       serviceAccountName: application-controller-service-account

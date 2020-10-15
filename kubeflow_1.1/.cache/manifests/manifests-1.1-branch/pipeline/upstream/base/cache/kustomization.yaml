@@ -7,5 +7,5 @@ resources:
 - cache-rolebinding.yaml
 - cache-sa.yaml
 images:
-- name: gcr.io/ml-pipeline/cache-server
+- name: harbor.ihomefnt.com/ai/ml-pipeline.cache-server
   newTag: 1.0.0
