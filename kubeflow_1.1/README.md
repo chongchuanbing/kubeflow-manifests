@@ -11,3 +11,11 @@
 
 #### kfctl_k8s_istio下载
     https://github.com/kubeflow/manifests/blob/master/kfdef/kfctl_k8s_istio.yaml
+    
+    
+```
+
+grep -o -h -R -E 'gcr.io/[a-zA-Z0-9/.@-]+:[a-zA-Z0-9.-]+' .cache | uniq |sort -u >> 'images_list'
+
+
+```
