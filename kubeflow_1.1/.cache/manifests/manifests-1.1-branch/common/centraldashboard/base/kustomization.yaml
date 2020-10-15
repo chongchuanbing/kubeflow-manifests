@@ -15,8 +15,8 @@ namespace: kubeflow
 commonLabels:
   kustomize.component: centraldashboard
 images:
-- name: gcr.io/kubeflow-images-public/centraldashboard
-  newName: gcr.io/kubeflow-images-public/centraldashboard
+- name: docker.io/chongchuanbing/kubeflow-images-public.centraldashboard:v1.1.0-g35d7484a
+  newName: docker.io/chongchuanbing/kubeflow-images-public.centraldashboard:v1.1.0-g35d7484a
   newTag: v1.1.0-g35d7484a
 configMapGenerator:
 - envs:

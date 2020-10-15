@@ -10,6 +10,6 @@ resources:
 commonLabels:
   kustomize.component: pytorch-operator
 images:
-- name: gcr.io/kubeflow-images-public/pytorch-operator
-  newName: gcr.io/kubeflow-images-public/pytorch-operator
+- name: docker.io/chongchuanbing/kubeflow-images-public.pytorch-operator:v0.6.0-18-g5e36a57
+  newName: docker.io/chongchuanbing/kubeflow-images-public.pytorch-operator:v0.6.0-18-g5e36a57
   newTag: vmaster-gd596e904

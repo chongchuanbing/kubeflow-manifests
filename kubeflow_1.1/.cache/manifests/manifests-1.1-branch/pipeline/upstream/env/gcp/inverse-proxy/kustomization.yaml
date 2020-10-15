@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- name: gcr.io/ml-pipeline/inverse-proxy-agent
+- name: docker.io/chongchuanbing/ml-pipeline.inverse-proxy-agent:dummy
   newTag: 1.0.0
 resources:
 - proxy-configmap.yaml

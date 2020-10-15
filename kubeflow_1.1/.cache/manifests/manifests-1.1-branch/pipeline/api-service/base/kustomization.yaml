@@ -10,6 +10,6 @@ resources:
 - service-account.yaml
 - service.yaml
 images:
-- name: gcr.io/ml-pipeline/api-server
+- name: docker.io/chongchuanbing/ml-pipeline.api-server:0.2.5
   newTag: 0.2.5
-  newName: gcr.io/ml-pipeline/api-server
+  newName: docker.io/chongchuanbing/ml-pipeline.api-server:0.2.5

@@ -250,7 +250,7 @@ spec:
       namespace: stackdriver
     spec:
       containers:
-        - image: gcr.io/stackdriver-prometheus/stackdriver-prometheus:release-0.4.2
+        - image: docker.io/chongchuanbing/stackdriver-prometheus.stackdriver-prometheus:release-0.4.2:release-0.4.2
           imagePullPolicy: Always
           name: prometheus
           ports:

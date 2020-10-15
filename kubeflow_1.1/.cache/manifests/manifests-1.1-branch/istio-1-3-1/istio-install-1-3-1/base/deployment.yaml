@@ -68,7 +68,7 @@ spec:
         env:
         - name: CITADEL_ENABLE_NAMESPACES_BY_DEFAULT
           value: "true"
-        image: gcr.io/istio-release/citadel:release-1.3-latest-daily
+        image: docker.io/chongchuanbing/istio-release.citadel:release-1.3-latest-daily:release-1.3-latest-daily
         imagePullPolicy: IfNotPresent
         name: citadel
         resources:
@@ -150,7 +150,7 @@ spec:
         - /etc/config/validating-webhook-configuration.yaml
         - --monitoringPort=15014
         - --log_output_level=default:info
-        image: gcr.io/istio-release/galley:release-1.3-latest-daily
+        image: docker.io/chongchuanbing/istio-release.galley:release-1.3-latest-daily:release-1.3-latest-daily
         imagePullPolicy: IfNotPresent
         livenessProbe:
           exec:
@@ -496,7 +496,7 @@ spec:
           value: "true"
         - name: PILOT_ENABLE_PROTOCOL_SNIFFING_FOR_INBOUND
           value: "false"
-        image: gcr.io/istio-release/pilot:release-1.3-latest-daily
+        image: docker.io/chongchuanbing/istio-release.pilot:release-1.3-latest-daily:release-1.3-latest-daily
         imagePullPolicy: IfNotPresent
         name: discovery
         ports:
@@ -667,7 +667,7 @@ spec:
           value: gctrace=1
         - name: GOMAXPROCS
           value: "6"
-        image: gcr.io/istio-release/mixer:release-1.3-latest-daily
+        image: docker.io/chongchuanbing/istio-release.mixer:release-1.3-latest-daily:release-1.3-latest-daily
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -969,7 +969,7 @@ spec:
           value: gctrace=1
         - name: GOMAXPROCS
           value: "6"
-        image: gcr.io/istio-release/mixer:release-1.3-latest-daily
+        image: docker.io/chongchuanbing/istio-release.mixer:release-1.3-latest-daily:release-1.3-latest-daily
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:

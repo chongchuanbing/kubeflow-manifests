@@ -29,7 +29,7 @@ spec:
       - args:
         - --tlsCertFile=/etc/webhook/certs/tls.crt
         - --tlsKeyFile=/etc/webhook/certs/tls.key
-        image: gcr.io/kubeflow-images-public/admission-webhook:vmaster-gaf96e4e3
+        image: docker.io/chongchuanbing/kubeflow-images-public.admission-webhook:v20190520-v0-139-gcee39dbc-dirty-0d8f4c:vmaster-gaf96e4e3
         name: admission-webhook
         volumeMounts:
         - mountPath: /etc/webhook/certs

@@ -53,7 +53,7 @@ spec:
           value: config-observability
         - name: METRICS_DOMAIN
           value: knative.dev/serving
-        image: gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio@sha256:61461fa789e19895d7d1e5ab96d8bb52a63788e0607e1bd2948b9570efeb6a8f
+        image: docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.controller:lastest:lastest
         name: networking-istio
         ports:
         - containerPort: 9090

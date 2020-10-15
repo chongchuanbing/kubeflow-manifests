@@ -13,8 +13,8 @@ commonLabels:
   app: cloud-endpoints-controller
   kustomize.component: cloud-endpoints
 images:
-- name: gcr.io/cloud-solutions-group/cloud-endpoints-controller
-  newName: gcr.io/cloud-solutions-group/cloud-endpoints-controller
+- name: docker.io/chongchuanbing/cloud-solutions-group.cloud-endpoints-controller:0.2.1
+  newName: docker.io/chongchuanbing/cloud-solutions-group.cloud-endpoints-controller:0.2.1
   newTag: 0.2.1
 configMapGenerator:
 - name: cloud-endpoints-parameters

@@ -34,7 +34,7 @@ spec:
             name: metadata-db-parameters
         - secretRef:
             name: metadata-db-secrets
-        image: gcr.io/kubeflow-images-public/metadata:v0.1.11
+        image: docker.io/chongchuanbing/kubeflow-images-public.metadata:v0.1.11:v0.1.11
         livenessProbe:
           httpGet:
             httpHeaders:

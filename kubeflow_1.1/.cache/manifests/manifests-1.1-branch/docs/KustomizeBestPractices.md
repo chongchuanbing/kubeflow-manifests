@@ -204,8 +204,8 @@ namePrefix: profiles-
 commonLabels:
   kustomize.component: profiles
 images:
-  - name: gcr.io/kubeflow-images-public/profile-controller
-    newName: gcr.io/kubeflow-images-public/profile-controller
+  - name: docker.io/chongchuanbing/kubeflow-images-public.profile-controller:vmaster-g34aa47c2
+    newName: docker.io/chongchuanbing/kubeflow-images-public.profile-controller:vmaster-g34aa47c2
     newTag: v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773
 ```
 
@@ -232,7 +232,7 @@ spec:
       containers:
       - command:
         - /manager
-        image: gcr.io/kubeflow-images-public/profile-controller:v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773
+        image: docker.io/chongchuanbing/kubeflow-images-public.profile-controller:vmaster-g34aa47c2:v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773
         imagePullPolicy: Always
         name: manager
       serviceAccountName: profiles-controller-service-account
@@ -252,7 +252,7 @@ spec:
       - name: manager
         command:
         - /manager
-        image: gcr.io/kubeflow-images-public/profile-controller:v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773
+        image: docker.io/chongchuanbing/kubeflow-images-public.profile-controller:vmaster-g34aa47c2:v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773
         imagePullPolicy: Always
       serviceAccountName: controller-service-account
 ```

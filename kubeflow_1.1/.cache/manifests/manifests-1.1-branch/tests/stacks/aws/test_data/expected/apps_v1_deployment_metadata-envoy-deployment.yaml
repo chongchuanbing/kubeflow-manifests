@@ -21,7 +21,7 @@ spec:
         kustomize.component: metadata
     spec:
       containers:
-      - image: gcr.io/ml-pipeline/envoy:metadata-grpc
+      - image: docker.io/chongchuanbing/ml-pipeline.envoy:metadata-grpc:metadata-grpc
         name: container
         ports:
         - containerPort: 9090

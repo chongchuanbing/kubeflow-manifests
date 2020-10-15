@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: main
-        image: gcr.io/ml-pipeline/cache-deployer:dummy
+        image: docker.io/chongchuanbing/ml-pipeline.cache-deployer:1.0.0:dummy
         imagePullPolicy: Always
         env:
         - name: NAMESPACE_TO_WATCH

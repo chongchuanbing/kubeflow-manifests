@@ -35,8 +35,8 @@ vars:
 configurations:
 - ../../kfserving-install/base/params.yaml
 images:
-- name: gcr.io/kubebuilder/kube-rbac-proxy
-  newName: gcr.io/kubebuilder/kube-rbac-proxy
+- name: docker.io/chongchuanbing/kubebuilder.kube-rbac-proxy:v0.4.0
+  newName: docker.io/chongchuanbing/kubebuilder.kube-rbac-proxy:v0.4.0
   newTag: v0.4.0
 - name: $(registry)/kfserving-controller
   newName: $(registry)/kfserving-controller

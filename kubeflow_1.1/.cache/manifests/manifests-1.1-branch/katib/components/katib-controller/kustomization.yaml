@@ -15,12 +15,12 @@ resources:
   - ../../katib-controller/overlays/application/application.yaml
   - ../../katib-controller/overlays/istio/katib-ui-virtual-service.yaml
 images:
-  - name: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller
+  - name: docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-controller:917164a
     newTag: 917164a
-    newName: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller
-  - name: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui
+    newName: docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-controller:917164a
+  - name: docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-ui:917164a
     newTag: 917164a
-    newName: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui
+    newName: docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-ui:917164a
 commonLabels:
   app.kubernetes.io/component: katib
   app.kubernetes.io/name: katib-controller

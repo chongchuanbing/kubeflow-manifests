@@ -10,7 +10,7 @@ spec:
         sidecar.istio.io/inject: "false"
     spec:
       containers:
-      - image: gcr.io/kubeflow-images-public/jupyter-web-app        
+      - image: docker.io/chongchuanbing/kubeflow-images-public.jupyter-web-app:v1.1.0-gd3377cbd        
         name: jupyter-web-app
         ports:
         - containerPort: 5000

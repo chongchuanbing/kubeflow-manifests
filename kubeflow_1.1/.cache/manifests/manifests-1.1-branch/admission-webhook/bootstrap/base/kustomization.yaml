@@ -10,8 +10,8 @@ commonLabels:
   kustomize.component: admission-webhook-bootstrap
 namePrefix: admission-webhook-bootstrap-
 images:
-- name: gcr.io/kubeflow-images-public/ingress-setup
-  newName: gcr.io/kubeflow-images-public/ingress-setup
+- name: docker.io/chongchuanbing/kubeflow-images-public.ingress-setup:latest
+  newName: docker.io/chongchuanbing/kubeflow-images-public.ingress-setup:latest
   newTag: latest
 generatorOptions:
   disableNameSuffixHash: true

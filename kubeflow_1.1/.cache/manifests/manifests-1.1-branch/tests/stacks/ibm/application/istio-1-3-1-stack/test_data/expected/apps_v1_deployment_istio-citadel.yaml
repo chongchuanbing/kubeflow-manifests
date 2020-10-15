@@ -69,7 +69,7 @@ spec:
         env:
         - name: CITADEL_ENABLE_NAMESPACES_BY_DEFAULT
           value: "true"
-        image: gcr.io/istio-release/citadel:release-1.3-latest-daily
+        image: docker.io/chongchuanbing/istio-release.citadel:release-1.3-latest-daily:release-1.3-latest-daily
         imagePullPolicy: IfNotPresent
         name: citadel
         resources:

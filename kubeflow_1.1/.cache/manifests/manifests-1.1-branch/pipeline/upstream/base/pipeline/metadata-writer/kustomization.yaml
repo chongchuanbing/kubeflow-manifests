@@ -6,5 +6,5 @@ resources:
 - metadata-writer-rolebinding.yaml
 - metadata-writer-sa.yaml
 images:
-- name: gcr.io/ml-pipeline/metadata-writer
+- name: docker.io/chongchuanbing/ml-pipeline.metadata-writer:dummy
   newTag: 1.0.0

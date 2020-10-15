@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: app
-        image: gcr.io/kubeflow-images-public/kflogin-ui:v0.5.0
+        image: docker.io/chongchuanbing/kubeflow-images-public.kflogin-ui:v0.5.0:v0.5.0
         ports:
         - containerPort: 5000

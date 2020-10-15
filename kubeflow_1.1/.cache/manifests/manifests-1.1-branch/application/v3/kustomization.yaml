@@ -19,7 +19,7 @@ resources:
 - ../application/base/stateful-set.yaml
 - ../application/overlays/application/application.yaml
 images:
-- name: gcr.io/kubeflow-images-public/kubernetes-sigs/application
-  newName: gcr.io/kubeflow-images-public/kubernetes-sigs/application
+- name: docker.io/chongchuanbing/kubeflow-images-public.kubernetes-sigs.application:1.0-beta
+  newName: docker.io/chongchuanbing/kubeflow-images-public.kubernetes-sigs.application:1.0-beta
   newTag: 1.0-beta
 

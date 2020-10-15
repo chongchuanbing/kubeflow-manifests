@@ -11,9 +11,9 @@ resources:
 patchesStrategicMerge:
 - persistent-volume-claim.yaml
 images:
-- name: gcr.io/ml-pipeline/mysql
+- name: docker.io/chongchuanbing/ml-pipeline.mysql:5.6
   newTag: '5.6'
-  newName: gcr.io/ml-pipeline/mysql
+  newName: docker.io/chongchuanbing/ml-pipeline.mysql:5.6
 configMapGenerator:
 - name: pipeline-mysql-install-config
   envs:

@@ -27,7 +27,7 @@ data:
     }
   logger: |-
     {
-        "image" : "gcr.io/kfserving/logger:v0.3.0",
+        "image" : "docker.io/chongchuanbing/kfserving.logger:v0.3.0:v0.3.0",
         "memoryRequest": "100Mi",
         "memoryLimit": "1Gi",
         "cpuRequest": "100m",
@@ -90,7 +90,7 @@ data:
     }
   storageInitializer: |-
     {
-        "image" : "gcr.io/kfserving/storage-initializer:v0.3.0",
+        "image" : "docker.io/chongchuanbing/kfserving.storage-initializer:0.2.2:v0.3.0",
         "memoryRequest": "100Mi",
         "memoryLimit": "1Gi",
         "cpuRequest": "100m",

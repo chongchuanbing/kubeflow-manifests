@@ -1,0 +1,504 @@
+docker pull docker.io/chongchuanbing/arrikto.kubeflow.oidc-authservice:28c59ef
+docker pull docker.io/chongchuanbing/arrikto.kubeflow.oidc-authservice:6ac9400
+docker pull docker.io/chongchuanbing/arrikto.kubeflow.oidc-authservice:v0.3
+docker pull docker.io/chongchuanbing/cloud-solutions-group.cloud-endpoints-controller:0.2.1
+docker pull docker.io/chongchuanbing/cloud-solutions-group.esp-sample-app:1.0.0
+docker pull docker.io/chongchuanbing/cloudsql-docker.gce-proxy:1.14
+docker pull docker.io/chongchuanbing/cloudsql-docker.gce-proxy:1.16
+docker pull docker.io/chongchuanbing/cnrm-eap.controller:b59b871
+docker pull docker.io/chongchuanbing/cnrm-eap.deletiondefender:b59b871
+docker pull docker.io/chongchuanbing/cnrm-eap.deletiondefender:f190973
+docker pull docker.io/chongchuanbing/cnrm-eap.recorder:b59b871
+docker pull docker.io/chongchuanbing/cnrm-eap.recorder:f190973
+docker pull docker.io/chongchuanbing/cnrm-eap.webhook:b59b871
+docker pull docker.io/chongchuanbing/cnrm-eap.webhook:f190973
+docker pull docker.io/chongchuanbing/google-containers.pause:2.0
+docker pull docker.io/chongchuanbing/istio-release.citadel:release-1.3-latest-daily
+docker pull docker.io/chongchuanbing/istio-release.galley:release-1.3-latest-daily
+docker pull docker.io/chongchuanbing/istio-release.kubectl:release-1.3-latest-daily
+docker pull docker.io/chongchuanbing/istio-release.mixer:release-1.3-latest-daily
+docker pull docker.io/chongchuanbing/istio-release.node-agent-k8s:release-1.3-latest-daily
+docker pull docker.io/chongchuanbing/istio-release.pilot:release-1.3-latest-daily
+docker pull docker.io/chongchuanbing/istio-release.proxyv2:release-1.3-latest-daily
+docker pull docker.io/chongchuanbing/kaniko-project.executor:v0.11.0
+docker pull docker.io/chongchuanbing/kfserving.kfserving-controller:v0.3.0
+docker pull docker.io/chongchuanbing/kfserving.logger:v0.3.0
+docker pull docker.io/chongchuanbing/kfserving.storage-initializer:0.2.2
+docker pull docker.io/chongchuanbing/kfserving.storage-initializer:v0.3.0
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.activator:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.activator:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.controller:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.controller:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.networking.istio:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.queue:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.webhook:lastest
+docker pull docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.webhook:lastest
+docker pull docker.io/chongchuanbing/kubebuilder.kube-rbac-proxy:v0.4.0
+docker pull docker.io/chongchuanbing/kubeflow-ci.pytorch-dist-mnist-test:v1.0
+docker pull docker.io/chongchuanbing/kubeflow-ci.test-worker-py3:e9afed1-dirty
+docker pull docker.io/chongchuanbing/kubeflow-images-public.admission-webhook:v20190520-v0-139-gcee39dbc-dirty-0d8f4c
+docker pull docker.io/chongchuanbing/kubeflow-images-public.admission-webhook:vmaster-gaf96e4e3
+docker pull docker.io/chongchuanbing/kubeflow-images-public.centraldashboard:v1.1.0-g35d7484a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.centraldashboard:vmaster-gf39279c0
+docker pull docker.io/chongchuanbing/kubeflow-images-public.gatekeeper:v0.5.0
+docker pull docker.io/chongchuanbing/kubeflow-images-public.ingress-setup:latest
+docker pull docker.io/chongchuanbing/kubeflow-images-public.jupyter-web-app:v1.1.0-gd3377cbd
+docker pull docker.io/chongchuanbing/kubeflow-images-public.jupyter-web-app:vmaster-gd9be4b9e
+docker pull docker.io/chongchuanbing/kubeflow-images-public.jwtpubkey:v20200311-v0.7.0-rc.5-109-g641fb40b-dirty-eb1cdc
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.file-metrics-collector:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-controller:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-db-manager:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-ui:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-chocolate:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-darts:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-enas:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-goptuna:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-hyperband:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-hyperopt:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-skopt:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.tfevent-metrics-collector:917164a
+docker pull docker.io/chongchuanbing/kubeflow-images-public.kfam:v1.1.0-g9f3bfd00
+docker pull docker.io/chongchuanbing/kubeflow-images-public.kfam:v20190612-v0-170-ga06cdb79-dirty-a33ee4
+docker pull docker.io/chongchuanbing/kubeflow-images-public.kfam:vmaster-gf3e09203
+docker pull docker.io/chongchuanbing/kubeflow-images-public.kflogin-ui:v0.5.0
+docker pull docker.io/chongchuanbing/kubeflow-images-public.kpt-fns:v1.0-rc.3-58-g616f986-dirty
+docker pull docker.io/chongchuanbing/kubeflow-images-public.kubebench.workflow-agent:bc682c1
+docker pull docker.io/chongchuanbing/kubeflow-images-public.kubernetes-sigs.application:1.0-beta
+docker pull docker.io/chongchuanbing/kubeflow-images-public.metadata-frontend:v0.1.8
+docker pull docker.io/chongchuanbing/kubeflow-images-public.metadata:v0.1.11
+docker pull docker.io/chongchuanbing/kubeflow-images-public.notebook-controller:v1.1.0-gd3377cbd
+docker pull docker.io/chongchuanbing/kubeflow-images-public.notebook-controller:v20190614-v0-160-g386f2749-e3b0c4
+docker pull docker.io/chongchuanbing/kubeflow-images-public.notebook-controller:vmaster-gf39279c0
+docker pull docker.io/chongchuanbing/kubeflow-images-public.profile-controller:v1.1.0-ga49f658f
+docker pull docker.io/chongchuanbing/kubeflow-images-public.profile-controller:v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773
+docker pull docker.io/chongchuanbing/kubeflow-images-public.profile-controller:v20190619-v0-219-gbd3daa8c-dirty-1ced0e
+docker pull docker.io/chongchuanbing/kubeflow-images-public.profile-controller:vmaster-g34aa47c2
+docker pull docker.io/chongchuanbing/kubeflow-images-public.pytorch-operator:v0.6.0-18-g5e36a57
+docker pull docker.io/chongchuanbing/kubeflow-images-public.pytorch-operator:vmaster-gd596e904
+docker pull docker.io/chongchuanbing/kubeflow-images-public.tensorflow-1.15.2-notebook-cpu:1.0.0
+docker pull docker.io/chongchuanbing/kubeflow-images-public.tensorflow-1.15.2-notebook-gpu:1.0.0
+docker pull docker.io/chongchuanbing/kubeflow-images-public.tensorflow-2.1.0-notebook-cpu:1.0.0
+docker pull docker.io/chongchuanbing/kubeflow-images-public.tensorflow-2.1.0-notebook-gpu:1.0.0
+docker pull docker.io/chongchuanbing/kubeflow-images-public.xgboost-operator:v0.1.0
+docker pull docker.io/chongchuanbing/ml-pipeline.api-server:0.2.5
+docker pull docker.io/chongchuanbing/ml-pipeline.api-server:1.0.0
+docker pull docker.io/chongchuanbing/ml-pipeline.api-server:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.application-crd-controller:1.0-beta-non-cluster-role
+docker pull docker.io/chongchuanbing/ml-pipeline.argoexec:v2.7.5-license-compliance
+docker pull docker.io/chongchuanbing/ml-pipeline.cache-deployer:1.0.0
+docker pull docker.io/chongchuanbing/ml-pipeline.cache-deployer:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.cache-server:1.0.0
+docker pull docker.io/chongchuanbing/ml-pipeline.cache-server:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.envoy:metadata-grpc
+docker pull docker.io/chongchuanbing/ml-pipeline.frontend:0.2.5
+docker pull docker.io/chongchuanbing/ml-pipeline.frontend:1.0.0
+docker pull docker.io/chongchuanbing/ml-pipeline.frontend:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.inverse-proxy-agent:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.metadata-envoy:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.metadata-writer:1.0.0
+docker pull docker.io/chongchuanbing/ml-pipeline.metadata-writer:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.minio:RELEASE.2019-08-14T20-37-41Z-license-compliance
+docker pull docker.io/chongchuanbing/ml-pipeline.mysql:5.6
+docker pull docker.io/chongchuanbing/ml-pipeline.persistenceagent:0.2.5
+docker pull docker.io/chongchuanbing/ml-pipeline.persistenceagent:1.0.0
+docker pull docker.io/chongchuanbing/ml-pipeline.persistenceagent:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.scheduledworkflow:0.2.5
+docker pull docker.io/chongchuanbing/ml-pipeline.scheduledworkflow:1.0.0
+docker pull docker.io/chongchuanbing/ml-pipeline.scheduledworkflow:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:0.1.31
+docker pull docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:0.2.5
+docker pull docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:1.0.0
+docker pull docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.visualization-server:0.2.5
+docker pull docker.io/chongchuanbing/ml-pipeline.visualization-server:1.0.0
+docker pull docker.io/chongchuanbing/ml-pipeline.visualization-server:dummy
+docker pull docker.io/chongchuanbing/ml-pipeline.workflow-controller:v2.7.5-license-compliance
+docker pull docker.io/chongchuanbing/spark-operator.spark-operator:v1beta2-1.1.0-2.4.5
+docker pull docker.io/chongchuanbing/stackdriver-prometheus.stackdriver-prometheus:release-0.4.2
+docker pull docker.io/chongchuanbing/tekton-nightly.dashboard:lastest
+
+docker tag docker.io/chongchuanbing/arrikto.kubeflow.oidc-authservice:28c59ef harbor.ihomefnt.com/ai/arrikto.kubeflow.oidc-authservice:28c59ef
+docker tag docker.io/chongchuanbing/arrikto.kubeflow.oidc-authservice:6ac9400 harbor.ihomefnt.com/ai/arrikto.kubeflow.oidc-authservice:6ac9400
+docker tag docker.io/chongchuanbing/arrikto.kubeflow.oidc-authservice:v0.3 harbor.ihomefnt.com/ai/arrikto.kubeflow.oidc-authservice:v0.3
+docker tag docker.io/chongchuanbing/cloud-solutions-group.cloud-endpoints-controller:0.2.1 harbor.ihomefnt.com/ai/cloud-solutions-group.cloud-endpoints-controller:0.2.1
+docker tag docker.io/chongchuanbing/cloud-solutions-group.esp-sample-app:1.0.0 harbor.ihomefnt.com/ai/cloud-solutions-group.esp-sample-app:1.0.0
+docker tag docker.io/chongchuanbing/cloudsql-docker.gce-proxy:1.14 harbor.ihomefnt.com/ai/cloudsql-docker.gce-proxy:1.14
+docker tag docker.io/chongchuanbing/cloudsql-docker.gce-proxy:1.16 harbor.ihomefnt.com/ai/cloudsql-docker.gce-proxy:1.16
+docker tag docker.io/chongchuanbing/cnrm-eap.controller:b59b871 harbor.ihomefnt.com/ai/cnrm-eap.controller:b59b871
+docker tag docker.io/chongchuanbing/cnrm-eap.deletiondefender:b59b871 harbor.ihomefnt.com/ai/cnrm-eap.deletiondefender:b59b871
+docker tag docker.io/chongchuanbing/cnrm-eap.deletiondefender:f190973 harbor.ihomefnt.com/ai/cnrm-eap.deletiondefender:f190973
+docker tag docker.io/chongchuanbing/cnrm-eap.recorder:b59b871 harbor.ihomefnt.com/ai/cnrm-eap.recorder:b59b871
+docker tag docker.io/chongchuanbing/cnrm-eap.recorder:f190973 harbor.ihomefnt.com/ai/cnrm-eap.recorder:f190973
+docker tag docker.io/chongchuanbing/cnrm-eap.webhook:b59b871 harbor.ihomefnt.com/ai/cnrm-eap.webhook:b59b871
+docker tag docker.io/chongchuanbing/cnrm-eap.webhook:f190973 harbor.ihomefnt.com/ai/cnrm-eap.webhook:f190973
+docker tag docker.io/chongchuanbing/google-containers.pause:2.0 harbor.ihomefnt.com/ai/google-containers.pause:2.0
+docker tag docker.io/chongchuanbing/istio-release.citadel:release-1.3-latest-daily harbor.ihomefnt.com/ai/istio-release.citadel:release-1.3-latest-daily
+docker tag docker.io/chongchuanbing/istio-release.galley:release-1.3-latest-daily harbor.ihomefnt.com/ai/istio-release.galley:release-1.3-latest-daily
+docker tag docker.io/chongchuanbing/istio-release.kubectl:release-1.3-latest-daily harbor.ihomefnt.com/ai/istio-release.kubectl:release-1.3-latest-daily
+docker tag docker.io/chongchuanbing/istio-release.mixer:release-1.3-latest-daily harbor.ihomefnt.com/ai/istio-release.mixer:release-1.3-latest-daily
+docker tag docker.io/chongchuanbing/istio-release.node-agent-k8s:release-1.3-latest-daily harbor.ihomefnt.com/ai/istio-release.node-agent-k8s:release-1.3-latest-daily
+docker tag docker.io/chongchuanbing/istio-release.pilot:release-1.3-latest-daily harbor.ihomefnt.com/ai/istio-release.pilot:release-1.3-latest-daily
+docker tag docker.io/chongchuanbing/istio-release.proxyv2:release-1.3-latest-daily harbor.ihomefnt.com/ai/istio-release.proxyv2:release-1.3-latest-daily
+docker tag docker.io/chongchuanbing/kaniko-project.executor:v0.11.0 harbor.ihomefnt.com/ai/kaniko-project.executor:v0.11.0
+docker tag docker.io/chongchuanbing/kfserving.kfserving-controller:v0.3.0 harbor.ihomefnt.com/ai/kfserving.kfserving-controller:v0.3.0
+docker tag docker.io/chongchuanbing/kfserving.logger:v0.3.0 harbor.ihomefnt.com/ai/kfserving.logger:v0.3.0
+docker tag docker.io/chongchuanbing/kfserving.storage-initializer:0.2.2 harbor.ihomefnt.com/ai/kfserving.storage-initializer:0.2.2
+docker tag docker.io/chongchuanbing/kfserving.storage-initializer:v0.3.0 harbor.ihomefnt.com/ai/kfserving.storage-initializer:v0.3.0
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.activator:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.activator:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.activator:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.activator:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.autoscaler:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.autoscaler:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.controller:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.controller:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.controller:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.controller:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.networking.istio:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.networking.istio:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.queue:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.queue:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.webhook:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.webhook:lastest
+docker tag docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.webhook:lastest harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.webhook:lastest
+docker tag docker.io/chongchuanbing/kubebuilder.kube-rbac-proxy:v0.4.0 harbor.ihomefnt.com/ai/kubebuilder.kube-rbac-proxy:v0.4.0
+docker tag docker.io/chongchuanbing/kubeflow-ci.pytorch-dist-mnist-test:v1.0 harbor.ihomefnt.com/ai/kubeflow-ci.pytorch-dist-mnist-test:v1.0
+docker tag docker.io/chongchuanbing/kubeflow-ci.test-worker-py3:e9afed1-dirty harbor.ihomefnt.com/ai/kubeflow-ci.test-worker-py3:e9afed1-dirty
+docker tag docker.io/chongchuanbing/kubeflow-images-public.admission-webhook:v20190520-v0-139-gcee39dbc-dirty-0d8f4c harbor.ihomefnt.com/ai/kubeflow-images-public.admission-webhook:v20190520-v0-139-gcee39dbc-dirty-0d8f4c
+docker tag docker.io/chongchuanbing/kubeflow-images-public.admission-webhook:vmaster-gaf96e4e3 harbor.ihomefnt.com/ai/kubeflow-images-public.admission-webhook:vmaster-gaf96e4e3
+docker tag docker.io/chongchuanbing/kubeflow-images-public.centraldashboard:v1.1.0-g35d7484a harbor.ihomefnt.com/ai/kubeflow-images-public.centraldashboard:v1.1.0-g35d7484a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.centraldashboard:vmaster-gf39279c0 harbor.ihomefnt.com/ai/kubeflow-images-public.centraldashboard:vmaster-gf39279c0
+docker tag docker.io/chongchuanbing/kubeflow-images-public.gatekeeper:v0.5.0 harbor.ihomefnt.com/ai/kubeflow-images-public.gatekeeper:v0.5.0
+docker tag docker.io/chongchuanbing/kubeflow-images-public.ingress-setup:latest harbor.ihomefnt.com/ai/kubeflow-images-public.ingress-setup:latest
+docker tag docker.io/chongchuanbing/kubeflow-images-public.jupyter-web-app:v1.1.0-gd3377cbd harbor.ihomefnt.com/ai/kubeflow-images-public.jupyter-web-app:v1.1.0-gd3377cbd
+docker tag docker.io/chongchuanbing/kubeflow-images-public.jupyter-web-app:vmaster-gd9be4b9e harbor.ihomefnt.com/ai/kubeflow-images-public.jupyter-web-app:vmaster-gd9be4b9e
+docker tag docker.io/chongchuanbing/kubeflow-images-public.jwtpubkey:v20200311-v0.7.0-rc.5-109-g641fb40b-dirty-eb1cdc harbor.ihomefnt.com/ai/kubeflow-images-public.jwtpubkey:v20200311-v0.7.0-rc.5-109-g641fb40b-dirty-eb1cdc
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.file-metrics-collector:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.file-metrics-collector:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-controller:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.katib-controller:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-db-manager:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.katib-db-manager:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-ui:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.katib-ui:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-chocolate:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-chocolate:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-darts:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-darts:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-enas:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-enas:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-goptuna:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-goptuna:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-hyperband:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-hyperband:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-hyperopt:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-hyperopt:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-skopt:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-skopt:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.tfevent-metrics-collector:917164a harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.tfevent-metrics-collector:917164a
+docker tag docker.io/chongchuanbing/kubeflow-images-public.kfam:v1.1.0-g9f3bfd00 harbor.ihomefnt.com/ai/kubeflow-images-public.kfam:v1.1.0-g9f3bfd00
+docker tag docker.io/chongchuanbing/kubeflow-images-public.kfam:v20190612-v0-170-ga06cdb79-dirty-a33ee4 harbor.ihomefnt.com/ai/kubeflow-images-public.kfam:v20190612-v0-170-ga06cdb79-dirty-a33ee4
+docker tag docker.io/chongchuanbing/kubeflow-images-public.kfam:vmaster-gf3e09203 harbor.ihomefnt.com/ai/kubeflow-images-public.kfam:vmaster-gf3e09203
+docker tag docker.io/chongchuanbing/kubeflow-images-public.kflogin-ui:v0.5.0 harbor.ihomefnt.com/ai/kubeflow-images-public.kflogin-ui:v0.5.0
+docker tag docker.io/chongchuanbing/kubeflow-images-public.kpt-fns:v1.0-rc.3-58-g616f986-dirty harbor.ihomefnt.com/ai/kubeflow-images-public.kpt-fns:v1.0-rc.3-58-g616f986-dirty
+docker tag docker.io/chongchuanbing/kubeflow-images-public.kubebench.workflow-agent:bc682c1 harbor.ihomefnt.com/ai/kubeflow-images-public.kubebench.workflow-agent:bc682c1
+docker tag docker.io/chongchuanbing/kubeflow-images-public.kubernetes-sigs.application:1.0-beta harbor.ihomefnt.com/ai/kubeflow-images-public.kubernetes-sigs.application:1.0-beta
+docker tag docker.io/chongchuanbing/kubeflow-images-public.metadata-frontend:v0.1.8 harbor.ihomefnt.com/ai/kubeflow-images-public.metadata-frontend:v0.1.8
+docker tag docker.io/chongchuanbing/kubeflow-images-public.metadata:v0.1.11 harbor.ihomefnt.com/ai/kubeflow-images-public.metadata:v0.1.11
+docker tag docker.io/chongchuanbing/kubeflow-images-public.notebook-controller:v1.1.0-gd3377cbd harbor.ihomefnt.com/ai/kubeflow-images-public.notebook-controller:v1.1.0-gd3377cbd
+docker tag docker.io/chongchuanbing/kubeflow-images-public.notebook-controller:v20190614-v0-160-g386f2749-e3b0c4 harbor.ihomefnt.com/ai/kubeflow-images-public.notebook-controller:v20190614-v0-160-g386f2749-e3b0c4
+docker tag docker.io/chongchuanbing/kubeflow-images-public.notebook-controller:vmaster-gf39279c0 harbor.ihomefnt.com/ai/kubeflow-images-public.notebook-controller:vmaster-gf39279c0
+docker tag docker.io/chongchuanbing/kubeflow-images-public.profile-controller:v1.1.0-ga49f658f harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller:v1.1.0-ga49f658f
+docker tag docker.io/chongchuanbing/kubeflow-images-public.profile-controller:v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773 harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller:v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773
+docker tag docker.io/chongchuanbing/kubeflow-images-public.profile-controller:v20190619-v0-219-gbd3daa8c-dirty-1ced0e harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller:v20190619-v0-219-gbd3daa8c-dirty-1ced0e
+docker tag docker.io/chongchuanbing/kubeflow-images-public.profile-controller:vmaster-g34aa47c2 harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller:vmaster-g34aa47c2
+docker tag docker.io/chongchuanbing/kubeflow-images-public.pytorch-operator:v0.6.0-18-g5e36a57 harbor.ihomefnt.com/ai/kubeflow-images-public.pytorch-operator:v0.6.0-18-g5e36a57
+docker tag docker.io/chongchuanbing/kubeflow-images-public.pytorch-operator:vmaster-gd596e904 harbor.ihomefnt.com/ai/kubeflow-images-public.pytorch-operator:vmaster-gd596e904
+docker tag docker.io/chongchuanbing/kubeflow-images-public.tensorflow-1.15.2-notebook-cpu:1.0.0 harbor.ihomefnt.com/ai/kubeflow-images-public.tensorflow-1.15.2-notebook-cpu:1.0.0
+docker tag docker.io/chongchuanbing/kubeflow-images-public.tensorflow-1.15.2-notebook-gpu:1.0.0 harbor.ihomefnt.com/ai/kubeflow-images-public.tensorflow-1.15.2-notebook-gpu:1.0.0
+docker tag docker.io/chongchuanbing/kubeflow-images-public.tensorflow-2.1.0-notebook-cpu:1.0.0 harbor.ihomefnt.com/ai/kubeflow-images-public.tensorflow-2.1.0-notebook-cpu:1.0.0
+docker tag docker.io/chongchuanbing/kubeflow-images-public.tensorflow-2.1.0-notebook-gpu:1.0.0 harbor.ihomefnt.com/ai/kubeflow-images-public.tensorflow-2.1.0-notebook-gpu:1.0.0
+docker tag docker.io/chongchuanbing/kubeflow-images-public.xgboost-operator:v0.1.0 harbor.ihomefnt.com/ai/kubeflow-images-public.xgboost-operator:v0.1.0
+docker tag docker.io/chongchuanbing/ml-pipeline.api-server:0.2.5 harbor.ihomefnt.com/ai/ml-pipeline.api-server:0.2.5
+docker tag docker.io/chongchuanbing/ml-pipeline.api-server:1.0.0 harbor.ihomefnt.com/ai/ml-pipeline.api-server:1.0.0
+docker tag docker.io/chongchuanbing/ml-pipeline.api-server:dummy harbor.ihomefnt.com/ai/ml-pipeline.api-server:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.application-crd-controller:1.0-beta-non-cluster-role harbor.ihomefnt.com/ai/ml-pipeline.application-crd-controller:1.0-beta-non-cluster-role
+docker tag docker.io/chongchuanbing/ml-pipeline.argoexec:v2.7.5-license-compliance harbor.ihomefnt.com/ai/ml-pipeline.argoexec:v2.7.5-license-compliance
+docker tag docker.io/chongchuanbing/ml-pipeline.cache-deployer:1.0.0 harbor.ihomefnt.com/ai/ml-pipeline.cache-deployer:1.0.0
+docker tag docker.io/chongchuanbing/ml-pipeline.cache-deployer:dummy harbor.ihomefnt.com/ai/ml-pipeline.cache-deployer:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.cache-server:1.0.0 harbor.ihomefnt.com/ai/ml-pipeline.cache-server:1.0.0
+docker tag docker.io/chongchuanbing/ml-pipeline.cache-server:dummy harbor.ihomefnt.com/ai/ml-pipeline.cache-server:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.envoy:metadata-grpc harbor.ihomefnt.com/ai/ml-pipeline.envoy:metadata-grpc
+docker tag docker.io/chongchuanbing/ml-pipeline.frontend:0.2.5 harbor.ihomefnt.com/ai/ml-pipeline.frontend:0.2.5
+docker tag docker.io/chongchuanbing/ml-pipeline.frontend:1.0.0 harbor.ihomefnt.com/ai/ml-pipeline.frontend:1.0.0
+docker tag docker.io/chongchuanbing/ml-pipeline.frontend:dummy harbor.ihomefnt.com/ai/ml-pipeline.frontend:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.inverse-proxy-agent:dummy harbor.ihomefnt.com/ai/ml-pipeline.inverse-proxy-agent:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.metadata-envoy:dummy harbor.ihomefnt.com/ai/ml-pipeline.metadata-envoy:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.metadata-writer:1.0.0 harbor.ihomefnt.com/ai/ml-pipeline.metadata-writer:1.0.0
+docker tag docker.io/chongchuanbing/ml-pipeline.metadata-writer:dummy harbor.ihomefnt.com/ai/ml-pipeline.metadata-writer:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.minio:RELEASE.2019-08-14T20-37-41Z-license-compliance harbor.ihomefnt.com/ai/ml-pipeline.minio:RELEASE.2019-08-14T20-37-41Z-license-compliance
+docker tag docker.io/chongchuanbing/ml-pipeline.mysql:5.6 harbor.ihomefnt.com/ai/ml-pipeline.mysql:5.6
+docker tag docker.io/chongchuanbing/ml-pipeline.persistenceagent:0.2.5 harbor.ihomefnt.com/ai/ml-pipeline.persistenceagent:0.2.5
+docker tag docker.io/chongchuanbing/ml-pipeline.persistenceagent:1.0.0 harbor.ihomefnt.com/ai/ml-pipeline.persistenceagent:1.0.0
+docker tag docker.io/chongchuanbing/ml-pipeline.persistenceagent:dummy harbor.ihomefnt.com/ai/ml-pipeline.persistenceagent:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.scheduledworkflow:0.2.5 harbor.ihomefnt.com/ai/ml-pipeline.scheduledworkflow:0.2.5
+docker tag docker.io/chongchuanbing/ml-pipeline.scheduledworkflow:1.0.0 harbor.ihomefnt.com/ai/ml-pipeline.scheduledworkflow:1.0.0
+docker tag docker.io/chongchuanbing/ml-pipeline.scheduledworkflow:dummy harbor.ihomefnt.com/ai/ml-pipeline.scheduledworkflow:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:0.1.31 harbor.ihomefnt.com/ai/ml-pipeline.viewer-crd-controller:0.1.31
+docker tag docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:0.2.5 harbor.ihomefnt.com/ai/ml-pipeline.viewer-crd-controller:0.2.5
+docker tag docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:1.0.0 harbor.ihomefnt.com/ai/ml-pipeline.viewer-crd-controller:1.0.0
+docker tag docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:dummy harbor.ihomefnt.com/ai/ml-pipeline.viewer-crd-controller:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.visualization-server:0.2.5 harbor.ihomefnt.com/ai/ml-pipeline.visualization-server:0.2.5
+docker tag docker.io/chongchuanbing/ml-pipeline.visualization-server:1.0.0 harbor.ihomefnt.com/ai/ml-pipeline.visualization-server:1.0.0
+docker tag docker.io/chongchuanbing/ml-pipeline.visualization-server:dummy harbor.ihomefnt.com/ai/ml-pipeline.visualization-server:dummy
+docker tag docker.io/chongchuanbing/ml-pipeline.workflow-controller:v2.7.5-license-compliance harbor.ihomefnt.com/ai/ml-pipeline.workflow-controller:v2.7.5-license-compliance
+docker tag docker.io/chongchuanbing/spark-operator.spark-operator:v1beta2-1.1.0-2.4.5 harbor.ihomefnt.com/ai/spark-operator.spark-operator:v1beta2-1.1.0-2.4.5
+docker tag docker.io/chongchuanbing/stackdriver-prometheus.stackdriver-prometheus:release-0.4.2 harbor.ihomefnt.com/ai/stackdriver-prometheus.stackdriver-prometheus:release-0.4.2
+docker tag docker.io/chongchuanbing/tekton-nightly.dashboard:lastest harbor.ihomefnt.com/ai/tekton-nightly.dashboard:lastest
+
+docker push harbor.ihomefnt.com/ai/arrikto.kubeflow.oidc-authservice:28c59ef
+docker push harbor.ihomefnt.com/ai/arrikto.kubeflow.oidc-authservice:6ac9400
+docker push harbor.ihomefnt.com/ai/arrikto.kubeflow.oidc-authservice:v0.3
+docker push harbor.ihomefnt.com/ai/cloud-solutions-group.cloud-endpoints-controller:0.2.1
+docker push harbor.ihomefnt.com/ai/cloud-solutions-group.esp-sample-app:1.0.0
+docker push harbor.ihomefnt.com/ai/cloudsql-docker.gce-proxy:1.14
+docker push harbor.ihomefnt.com/ai/cloudsql-docker.gce-proxy:1.16
+docker push harbor.ihomefnt.com/ai/cnrm-eap.controller:b59b871
+docker push harbor.ihomefnt.com/ai/cnrm-eap.deletiondefender:b59b871
+docker push harbor.ihomefnt.com/ai/cnrm-eap.deletiondefender:f190973
+docker push harbor.ihomefnt.com/ai/cnrm-eap.recorder:b59b871
+docker push harbor.ihomefnt.com/ai/cnrm-eap.recorder:f190973
+docker push harbor.ihomefnt.com/ai/cnrm-eap.webhook:b59b871
+docker push harbor.ihomefnt.com/ai/cnrm-eap.webhook:f190973
+docker push harbor.ihomefnt.com/ai/google-containers.pause:2.0
+docker push harbor.ihomefnt.com/ai/istio-release.citadel:release-1.3-latest-daily
+docker push harbor.ihomefnt.com/ai/istio-release.galley:release-1.3-latest-daily
+docker push harbor.ihomefnt.com/ai/istio-release.kubectl:release-1.3-latest-daily
+docker push harbor.ihomefnt.com/ai/istio-release.mixer:release-1.3-latest-daily
+docker push harbor.ihomefnt.com/ai/istio-release.node-agent-k8s:release-1.3-latest-daily
+docker push harbor.ihomefnt.com/ai/istio-release.pilot:release-1.3-latest-daily
+docker push harbor.ihomefnt.com/ai/istio-release.proxyv2:release-1.3-latest-daily
+docker push harbor.ihomefnt.com/ai/kaniko-project.executor:v0.11.0
+docker push harbor.ihomefnt.com/ai/kfserving.kfserving-controller:v0.3.0
+docker push harbor.ihomefnt.com/ai/kfserving.logger:v0.3.0
+docker push harbor.ihomefnt.com/ai/kfserving.storage-initializer:0.2.2
+docker push harbor.ihomefnt.com/ai/kfserving.storage-initializer:v0.3.0
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.activator:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.activator:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.autoscaler:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.autoscaler:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.controller:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.controller:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.networking.istio:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.queue:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.webhook:lastest
+docker push harbor.ihomefnt.com/ai/knative-releases.knative.dev.serving.cmd.webhook:lastest
+docker push harbor.ihomefnt.com/ai/kubebuilder.kube-rbac-proxy:v0.4.0
+docker push harbor.ihomefnt.com/ai/kubeflow-ci.pytorch-dist-mnist-test:v1.0
+docker push harbor.ihomefnt.com/ai/kubeflow-ci.test-worker-py3:e9afed1-dirty
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.admission-webhook:v20190520-v0-139-gcee39dbc-dirty-0d8f4c
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.admission-webhook:vmaster-gaf96e4e3
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.centraldashboard:v1.1.0-g35d7484a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.centraldashboard:vmaster-gf39279c0
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.gatekeeper:v0.5.0
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.ingress-setup:latest
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.jupyter-web-app:v1.1.0-gd3377cbd
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.jupyter-web-app:vmaster-gd9be4b9e
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.jwtpubkey:v20200311-v0.7.0-rc.5-109-g641fb40b-dirty-eb1cdc
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.file-metrics-collector:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.katib-controller:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.katib-db-manager:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.katib-ui:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-chocolate:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-darts:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-enas:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-goptuna:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-hyperband:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-hyperopt:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.suggestion-skopt:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.tfevent-metrics-collector:917164a
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.kfam:v1.1.0-g9f3bfd00
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.kfam:v20190612-v0-170-ga06cdb79-dirty-a33ee4
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.kfam:vmaster-gf3e09203
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.kflogin-ui:v0.5.0
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.kpt-fns:v1.0-rc.3-58-g616f986-dirty
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.kubebench.workflow-agent:bc682c1
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.kubernetes-sigs.application:1.0-beta
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.metadata-frontend:v0.1.8
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.metadata:v0.1.11
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.notebook-controller:v1.1.0-gd3377cbd
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.notebook-controller:v20190614-v0-160-g386f2749-e3b0c4
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.notebook-controller:vmaster-gf39279c0
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller:v1.1.0-ga49f658f
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller:v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller:v20190619-v0-219-gbd3daa8c-dirty-1ced0e
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller:vmaster-g34aa47c2
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.pytorch-operator:v0.6.0-18-g5e36a57
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.pytorch-operator:vmaster-gd596e904
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.tensorflow-1.15.2-notebook-cpu:1.0.0
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.tensorflow-1.15.2-notebook-gpu:1.0.0
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.tensorflow-2.1.0-notebook-cpu:1.0.0
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.tensorflow-2.1.0-notebook-gpu:1.0.0
+docker push harbor.ihomefnt.com/ai/kubeflow-images-public.xgboost-operator:v0.1.0
+docker push harbor.ihomefnt.com/ai/ml-pipeline.api-server:0.2.5
+docker push harbor.ihomefnt.com/ai/ml-pipeline.api-server:1.0.0
+docker push harbor.ihomefnt.com/ai/ml-pipeline.api-server:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.application-crd-controller:1.0-beta-non-cluster-role
+docker push harbor.ihomefnt.com/ai/ml-pipeline.argoexec:v2.7.5-license-compliance
+docker push harbor.ihomefnt.com/ai/ml-pipeline.cache-deployer:1.0.0
+docker push harbor.ihomefnt.com/ai/ml-pipeline.cache-deployer:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.cache-server:1.0.0
+docker push harbor.ihomefnt.com/ai/ml-pipeline.cache-server:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.envoy:metadata-grpc
+docker push harbor.ihomefnt.com/ai/ml-pipeline.frontend:0.2.5
+docker push harbor.ihomefnt.com/ai/ml-pipeline.frontend:1.0.0
+docker push harbor.ihomefnt.com/ai/ml-pipeline.frontend:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.inverse-proxy-agent:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.metadata-envoy:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.metadata-writer:1.0.0
+docker push harbor.ihomefnt.com/ai/ml-pipeline.metadata-writer:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.minio:RELEASE.2019-08-14T20-37-41Z-license-compliance
+docker push harbor.ihomefnt.com/ai/ml-pipeline.mysql:5.6
+docker push harbor.ihomefnt.com/ai/ml-pipeline.persistenceagent:0.2.5
+docker push harbor.ihomefnt.com/ai/ml-pipeline.persistenceagent:1.0.0
+docker push harbor.ihomefnt.com/ai/ml-pipeline.persistenceagent:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.scheduledworkflow:0.2.5
+docker push harbor.ihomefnt.com/ai/ml-pipeline.scheduledworkflow:1.0.0
+docker push harbor.ihomefnt.com/ai/ml-pipeline.scheduledworkflow:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.viewer-crd-controller:0.1.31
+docker push harbor.ihomefnt.com/ai/ml-pipeline.viewer-crd-controller:0.2.5
+docker push harbor.ihomefnt.com/ai/ml-pipeline.viewer-crd-controller:1.0.0
+docker push harbor.ihomefnt.com/ai/ml-pipeline.viewer-crd-controller:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.visualization-server:0.2.5
+docker push harbor.ihomefnt.com/ai/ml-pipeline.visualization-server:1.0.0
+docker push harbor.ihomefnt.com/ai/ml-pipeline.visualization-server:dummy
+docker push harbor.ihomefnt.com/ai/ml-pipeline.workflow-controller:v2.7.5-license-compliance
+docker push harbor.ihomefnt.com/ai/spark-operator.spark-operator:v1beta2-1.1.0-2.4.5
+docker push harbor.ihomefnt.com/ai/stackdriver-prometheus.stackdriver-prometheus:release-0.4.2
+docker push harbor.ihomefnt.com/ai/tekton-nightly.dashboard:lastest
+
+grep -rl "gcr.io/arrikto/kubeflow/oidc-authservice" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/arrikto/kubeflow/oidc-authservice?docker.io/chongchuanbing/arrikto.kubeflow.oidc-authservice:28c59ef?"
+grep -rl "gcr.io/arrikto/kubeflow/oidc-authservice" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/arrikto/kubeflow/oidc-authservice?docker.io/chongchuanbing/arrikto.kubeflow.oidc-authservice:6ac9400?"
+grep -rl "gcr.io/arrikto/kubeflow/oidc-authservice" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/arrikto/kubeflow/oidc-authservice?docker.io/chongchuanbing/arrikto.kubeflow.oidc-authservice:v0.3?"
+grep -rl "gcr.io/cloud-solutions-group/cloud-endpoints-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cloud-solutions-group/cloud-endpoints-controller?docker.io/chongchuanbing/cloud-solutions-group.cloud-endpoints-controller:0.2.1?"
+grep -rl "gcr.io/cloud-solutions-group/esp-sample-app" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cloud-solutions-group/esp-sample-app?docker.io/chongchuanbing/cloud-solutions-group.esp-sample-app:1.0.0?"
+grep -rl "gcr.io/cloudsql-docker/gce-proxy" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cloudsql-docker/gce-proxy?docker.io/chongchuanbing/cloudsql-docker.gce-proxy:1.14?"
+grep -rl "gcr.io/cloudsql-docker/gce-proxy" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cloudsql-docker/gce-proxy?docker.io/chongchuanbing/cloudsql-docker.gce-proxy:1.16?"
+grep -rl "gcr.io/cnrm-eap/controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cnrm-eap/controller?docker.io/chongchuanbing/cnrm-eap.controller:b59b871?"
+grep -rl "gcr.io/cnrm-eap/deletiondefender" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cnrm-eap/deletiondefender?docker.io/chongchuanbing/cnrm-eap.deletiondefender:b59b871?"
+grep -rl "gcr.io/cnrm-eap/deletiondefender" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cnrm-eap/deletiondefender?docker.io/chongchuanbing/cnrm-eap.deletiondefender:f190973?"
+grep -rl "gcr.io/cnrm-eap/recorder" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cnrm-eap/recorder?docker.io/chongchuanbing/cnrm-eap.recorder:b59b871?"
+grep -rl "gcr.io/cnrm-eap/recorder" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cnrm-eap/recorder?docker.io/chongchuanbing/cnrm-eap.recorder:f190973?"
+grep -rl "gcr.io/cnrm-eap/webhook" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cnrm-eap/webhook?docker.io/chongchuanbing/cnrm-eap.webhook:b59b871?"
+grep -rl "gcr.io/cnrm-eap/webhook" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/cnrm-eap/webhook?docker.io/chongchuanbing/cnrm-eap.webhook:f190973?"
+grep -rl "gcr.io/google-containers/pause" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/google-containers/pause?docker.io/chongchuanbing/google-containers.pause:2.0?"
+grep -rl "gcr.io/istio-release/citadel" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/istio-release/citadel?docker.io/chongchuanbing/istio-release.citadel:release-1.3-latest-daily?"
+grep -rl "gcr.io/istio-release/galley" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/istio-release/galley?docker.io/chongchuanbing/istio-release.galley:release-1.3-latest-daily?"
+grep -rl "gcr.io/istio-release/kubectl" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/istio-release/kubectl?docker.io/chongchuanbing/istio-release.kubectl:release-1.3-latest-daily?"
+grep -rl "gcr.io/istio-release/mixer" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/istio-release/mixer?docker.io/chongchuanbing/istio-release.mixer:release-1.3-latest-daily?"
+grep -rl "gcr.io/istio-release/node-agent-k8s" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/istio-release/node-agent-k8s?docker.io/chongchuanbing/istio-release.node-agent-k8s:release-1.3-latest-daily?"
+grep -rl "gcr.io/istio-release/pilot" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/istio-release/pilot?docker.io/chongchuanbing/istio-release.pilot:release-1.3-latest-daily?"
+grep -rl "gcr.io/istio-release/proxyv2" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/istio-release/proxyv2?docker.io/chongchuanbing/istio-release.proxyv2:release-1.3-latest-daily?"
+grep -rl "gcr.io/kaniko-project/executor" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kaniko-project/executor?docker.io/chongchuanbing/kaniko-project.executor:v0.11.0?"
+grep -rl "gcr.io/kfserving/kfserving-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kfserving/kfserving-controller?docker.io/chongchuanbing/kfserving.kfserving-controller:v0.3.0?"
+grep -rl "gcr.io/kfserving/logger" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kfserving/logger?docker.io/chongchuanbing/kfserving.logger:v0.3.0?"
+grep -rl "gcr.io/kfserving/storage-initializer" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kfserving/storage-initializer?docker.io/chongchuanbing/kfserving.storage-initializer:0.2.2?"
+grep -rl "gcr.io/kfserving/storage-initializer" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kfserving/storage-initializer?docker.io/chongchuanbing/kfserving.storage-initializer:v0.3.0?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:8e606671215cc029683e8cd633ec5de9eabeaa6e9a4392ff289883304be1f418" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:8e606671215cc029683e8cd633ec5de9eabeaa6e9a4392ff289883304be1f418?docker.io/chongchuanbing/kfserving.storage-initializer:v0.3.0:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/activator" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/activator?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.activator:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:c51023e62e351d5910f92ee941b4929eb82539e62636dd3ccb4a016d73e86b2e" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:c51023e62e351d5910f92ee941b4929eb82539e62636dd3ccb4a016d73e86b2e?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.activator:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/activator" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/activator?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.activator:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa@sha256:5e0fadf574e66fb1c893806b5c5e5f19139cc476ebf1dff9860789fe4ac5f545" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa@sha256:5e0fadf574e66fb1c893806b5c5e5f19139cc476ebf1dff9860789fe4ac5f545?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.activator:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa@sha256:75da5ff75bc1e71799d039846b1bbd632343894c88feaa59914cfeeb1b213c81" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa@sha256:75da5ff75bc1e71799d039846b1bbd632343894c88feaa59914cfeeb1b213c81?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:998a405454832cda18a4bf956d26d610a2df2130a39b834b597a89a3153c8c15" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:998a405454832cda18a4bf956d26d610a2df2130a39b834b597a89a3153c8c15?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:ef1f01b5fb3886d4c488a219687aac72d28e72f808691132f658259e4e02bb27" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:ef1f01b5fb3886d4c488a219687aac72d28e72f808691132f658259e4e02bb27?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:1e77bdab30c8d0f0df299f5fa93d6f99eb63071b9d3329937dff0c6acb99e059" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:1e77bdab30c8d0f0df299f5fa93d6f99eb63071b9d3329937dff0c6acb99e059?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/controller?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.controller:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:5ca13e5b3ce5e2819c4567b75c0984650a57272ece44bc1dabf930f9fe1e19a1" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:5ca13e5b3ce5e2819c4567b75c0984650a57272ece44bc1dabf930f9fe1e19a1?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.controller:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/controller?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.controller:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio@sha256:61461fa789e19895d7d1e5ab96d8bb52a63788e0607e1bd2948b9570efeb6a8f" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio@sha256:61461fa789e19895d7d1e5ab96d8bb52a63788e0607e1bd2948b9570efeb6a8f?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.controller:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.networking.istio:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:792f6945c7bc73a49a470a5b955c39c8bd174705743abf5fb71aa0f4c04128eb" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:792f6945c7bc73a49a470a5b955c39c8bd174705743abf5fb71aa0f4c04128eb?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.networking.istio:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/queue" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/queue?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.queue:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:1ef3328282f31704b5802c1136bd117e8598fd9f437df8209ca87366c5ce9fcb" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:1ef3328282f31704b5802c1136bd117e8598fd9f437df8209ca87366c5ce9fcb?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.queue:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/webhook" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/webhook?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.webhook:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:d07560cd5548640cc79abc819608844527351f10e8b0a847988f9eb602c18972" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:d07560cd5548640cc79abc819608844527351f10e8b0a847988f9eb602c18972?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.webhook:lastest:lastest?"
+grep -rl "gcr.io/knative-releases/knative.dev/serving/cmd/webhook" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/knative-releases/knative.dev/serving/cmd/webhook?docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.webhook:lastest?"
+grep -rl "gcr.io/kubebuilder/kube-rbac-proxy" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubebuilder/kube-rbac-proxy?docker.io/chongchuanbing/kubebuilder.kube-rbac-proxy:v0.4.0?"
+grep -rl "gcr.io/kubeflow-ci/pytorch-dist-mnist-test" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-ci/pytorch-dist-mnist-test?docker.io/chongchuanbing/kubeflow-ci.pytorch-dist-mnist-test:v1.0?"
+grep -rl "gcr.io/kubeflow-ci/test-worker-py3" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-ci/test-worker-py3?docker.io/chongchuanbing/kubeflow-ci.test-worker-py3:e9afed1-dirty?"
+grep -rl "gcr.io/kubeflow-images-public/admission-webhook" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/admission-webhook?docker.io/chongchuanbing/kubeflow-images-public.admission-webhook:v20190520-v0-139-gcee39dbc-dirty-0d8f4c?"
+grep -rl "gcr.io/kubeflow-images-public/admission-webhook" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/admission-webhook?docker.io/chongchuanbing/kubeflow-images-public.admission-webhook:vmaster-gaf96e4e3?"
+grep -rl "gcr.io/kubeflow-images-public/centraldashboard" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/centraldashboard?docker.io/chongchuanbing/kubeflow-images-public.centraldashboard:v1.1.0-g35d7484a?"
+grep -rl "gcr.io/kubeflow-images-public/centraldashboard" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/centraldashboard?docker.io/chongchuanbing/kubeflow-images-public.centraldashboard:vmaster-gf39279c0?"
+grep -rl "gcr.io/kubeflow-images-public/gatekeeper" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/gatekeeper?docker.io/chongchuanbing/kubeflow-images-public.gatekeeper:v0.5.0?"
+grep -rl "gcr.io/kubeflow-images-public/ingress-setup" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/ingress-setup?docker.io/chongchuanbing/kubeflow-images-public.ingress-setup:latest?"
+grep -rl "gcr.io/kubeflow-images-public/jupyter-web-app" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/jupyter-web-app?docker.io/chongchuanbing/kubeflow-images-public.jupyter-web-app:v1.1.0-gd3377cbd?"
+grep -rl "gcr.io/kubeflow-images-public/jupyter-web-app" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/jupyter-web-app?docker.io/chongchuanbing/kubeflow-images-public.jupyter-web-app:vmaster-gd9be4b9e?"
+grep -rl "gcr.io/kubeflow-images-public/jwtpubkey" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/jwtpubkey?docker.io/chongchuanbing/kubeflow-images-public.jwtpubkey:v20200311-v0.7.0-rc.5-109-g641fb40b-dirty-eb1cdc?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/file-metrics-collector" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/file-metrics-collector?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.file-metrics-collector:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-controller:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/katib-db-manager" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/katib-db-manager?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-db-manager:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.katib-ui:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-chocolate" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-chocolate?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-chocolate:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-darts" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-darts?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-darts:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-enas" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-enas?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-enas:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-goptuna" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-goptuna?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-goptuna:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-hyperband" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-hyperband?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-hyperband:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-hyperopt" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-hyperopt?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-hyperopt:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-skopt" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-skopt?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.suggestion-skopt:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/katib/v1alpha3/tfevent-metrics-collector" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/katib/v1alpha3/tfevent-metrics-collector?docker.io/chongchuanbing/kubeflow-images-public.katib.v1alpha3.tfevent-metrics-collector:917164a?"
+grep -rl "gcr.io/kubeflow-images-public/kfam" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/kfam?docker.io/chongchuanbing/kubeflow-images-public.kfam:v1.1.0-g9f3bfd00?"
+grep -rl "gcr.io/kubeflow-images-public/kfam" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/kfam?docker.io/chongchuanbing/kubeflow-images-public.kfam:v20190612-v0-170-ga06cdb79-dirty-a33ee4?"
+grep -rl "gcr.io/kubeflow-images-public/kfam" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/kfam?docker.io/chongchuanbing/kubeflow-images-public.kfam:vmaster-gf3e09203?"
+grep -rl "gcr.io/kubeflow-images-public/kflogin-ui" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/kflogin-ui?docker.io/chongchuanbing/kubeflow-images-public.kflogin-ui:v0.5.0?"
+grep -rl "gcr.io/kubeflow-images-public/kpt-fns" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/kpt-fns?docker.io/chongchuanbing/kubeflow-images-public.kpt-fns:v1.0-rc.3-58-g616f986-dirty?"
+grep -rl "gcr.io/kubeflow-images-public/kubebench/workflow-agent" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/kubebench/workflow-agent?docker.io/chongchuanbing/kubeflow-images-public.kubebench.workflow-agent:bc682c1?"
+grep -rl "gcr.io/kubeflow-images-public/kubernetes-sigs/application" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/kubernetes-sigs/application?docker.io/chongchuanbing/kubeflow-images-public.kubernetes-sigs.application:1.0-beta?"
+grep -rl "gcr.io/kubeflow-images-public/metadata-frontend" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/metadata-frontend?docker.io/chongchuanbing/kubeflow-images-public.metadata-frontend:v0.1.8?"
+grep -rl "gcr.io/kubeflow-images-public/metadata" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/metadata?docker.io/chongchuanbing/kubeflow-images-public.metadata:v0.1.11?"
+grep -rl "gcr.io/kubeflow-images-public/notebook-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/notebook-controller?docker.io/chongchuanbing/kubeflow-images-public.notebook-controller:v1.1.0-gd3377cbd?"
+grep -rl "gcr.io/kubeflow-images-public/notebook-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/notebook-controller?docker.io/chongchuanbing/kubeflow-images-public.notebook-controller:v20190614-v0-160-g386f2749-e3b0c4?"
+grep -rl "gcr.io/kubeflow-images-public/notebook-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/notebook-controller?docker.io/chongchuanbing/kubeflow-images-public.notebook-controller:vmaster-gf39279c0?"
+grep -rl "gcr.io/kubeflow-images-public/profile-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/profile-controller?docker.io/chongchuanbing/kubeflow-images-public.profile-controller:v1.1.0-ga49f658f?"
+grep -rl "gcr.io/kubeflow-images-public/profile-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/profile-controller?docker.io/chongchuanbing/kubeflow-images-public.profile-controller:v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773?"
+grep -rl "gcr.io/kubeflow-images-public/profile-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/profile-controller?docker.io/chongchuanbing/kubeflow-images-public.profile-controller:v20190619-v0-219-gbd3daa8c-dirty-1ced0e?"
+grep -rl "gcr.io/kubeflow-images-public/profile-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/profile-controller?docker.io/chongchuanbing/kubeflow-images-public.profile-controller:vmaster-g34aa47c2?"
+grep -rl "gcr.io/kubeflow-images-public/pytorch-operator" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/pytorch-operator?docker.io/chongchuanbing/kubeflow-images-public.pytorch-operator:v0.6.0-18-g5e36a57?"
+grep -rl "gcr.io/kubeflow-images-public/pytorch-operator" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/pytorch-operator?docker.io/chongchuanbing/kubeflow-images-public.pytorch-operator:vmaster-gd596e904?"
+grep -rl "gcr.io/kubeflow-images-public/tensorflow-1.15.2-notebook-cpu" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/tensorflow-1.15.2-notebook-cpu?docker.io/chongchuanbing/kubeflow-images-public.tensorflow-1.15.2-notebook-cpu:1.0.0?"
+grep -rl "gcr.io/kubeflow-images-public/tensorflow-1.15.2-notebook-gpu" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/tensorflow-1.15.2-notebook-gpu?docker.io/chongchuanbing/kubeflow-images-public.tensorflow-1.15.2-notebook-gpu:1.0.0?"
+grep -rl "gcr.io/kubeflow-images-public/tensorflow-2.1.0-notebook-cpu" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/tensorflow-2.1.0-notebook-cpu?docker.io/chongchuanbing/kubeflow-images-public.tensorflow-2.1.0-notebook-cpu:1.0.0?"
+grep -rl "gcr.io/kubeflow-images-public/tensorflow-2.1.0-notebook-gpu" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/tensorflow-2.1.0-notebook-gpu?docker.io/chongchuanbing/kubeflow-images-public.tensorflow-2.1.0-notebook-gpu:1.0.0?"
+grep -rl "gcr.io/kubeflow-images-public/xgboost-operator" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/kubeflow-images-public/xgboost-operator?docker.io/chongchuanbing/kubeflow-images-public.xgboost-operator:v0.1.0?"
+grep -rl "gcr.io/ml-pipeline/api-server" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/api-server?docker.io/chongchuanbing/ml-pipeline.api-server:0.2.5?"
+grep -rl "gcr.io/ml-pipeline/api-server" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/api-server?docker.io/chongchuanbing/ml-pipeline.api-server:1.0.0?"
+grep -rl "gcr.io/ml-pipeline/api-server" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/api-server?docker.io/chongchuanbing/ml-pipeline.api-server:dummy?"
+grep -rl "gcr.io/ml-pipeline/application-crd-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/application-crd-controller?docker.io/chongchuanbing/ml-pipeline.application-crd-controller:1.0-beta-non-cluster-role?"
+grep -rl "gcr.io/ml-pipeline/argoexec" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/argoexec?docker.io/chongchuanbing/ml-pipeline.argoexec:v2.7.5-license-compliance?"
+grep -rl "gcr.io/ml-pipeline/cache-deployer" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/cache-deployer?docker.io/chongchuanbing/ml-pipeline.cache-deployer:1.0.0?"
+grep -rl "gcr.io/ml-pipeline/cache-deployer" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/cache-deployer?docker.io/chongchuanbing/ml-pipeline.cache-deployer:dummy?"
+grep -rl "gcr.io/ml-pipeline/cache-server" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/cache-server?docker.io/chongchuanbing/ml-pipeline.cache-server:1.0.0?"
+grep -rl "gcr.io/ml-pipeline/cache-server" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/cache-server?docker.io/chongchuanbing/ml-pipeline.cache-server:dummy?"
+grep -rl "gcr.io/ml-pipeline/envoy" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/envoy?docker.io/chongchuanbing/ml-pipeline.envoy:metadata-grpc?"
+grep -rl "gcr.io/ml-pipeline/frontend" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/frontend?docker.io/chongchuanbing/ml-pipeline.frontend:0.2.5?"
+grep -rl "gcr.io/ml-pipeline/frontend" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/frontend?docker.io/chongchuanbing/ml-pipeline.frontend:1.0.0?"
+grep -rl "gcr.io/ml-pipeline/frontend" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/frontend?docker.io/chongchuanbing/ml-pipeline.frontend:dummy?"
+grep -rl "gcr.io/ml-pipeline/inverse-proxy-agent" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/inverse-proxy-agent?docker.io/chongchuanbing/ml-pipeline.inverse-proxy-agent:dummy?"
+grep -rl "gcr.io/ml-pipeline/metadata-envoy" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/metadata-envoy?docker.io/chongchuanbing/ml-pipeline.metadata-envoy:dummy?"
+grep -rl "gcr.io/ml-pipeline/metadata-writer" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/metadata-writer?docker.io/chongchuanbing/ml-pipeline.metadata-writer:1.0.0?"
+grep -rl "gcr.io/ml-pipeline/metadata-writer" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/metadata-writer?docker.io/chongchuanbing/ml-pipeline.metadata-writer:dummy?"
+grep -rl "gcr.io/ml-pipeline/minio" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/minio?docker.io/chongchuanbing/ml-pipeline.minio:RELEASE.2019-08-14T20-37-41Z-license-compliance?"
+grep -rl "gcr.io/ml-pipeline/mysql" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/mysql?docker.io/chongchuanbing/ml-pipeline.mysql:5.6?"
+grep -rl "gcr.io/ml-pipeline/persistenceagent" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/persistenceagent?docker.io/chongchuanbing/ml-pipeline.persistenceagent:0.2.5?"
+grep -rl "gcr.io/ml-pipeline/persistenceagent" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/persistenceagent?docker.io/chongchuanbing/ml-pipeline.persistenceagent:1.0.0?"
+grep -rl "gcr.io/ml-pipeline/persistenceagent" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/persistenceagent?docker.io/chongchuanbing/ml-pipeline.persistenceagent:dummy?"
+grep -rl "gcr.io/ml-pipeline/scheduledworkflow" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/scheduledworkflow?docker.io/chongchuanbing/ml-pipeline.scheduledworkflow:0.2.5?"
+grep -rl "gcr.io/ml-pipeline/scheduledworkflow" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/scheduledworkflow?docker.io/chongchuanbing/ml-pipeline.scheduledworkflow:1.0.0?"
+grep -rl "gcr.io/ml-pipeline/scheduledworkflow" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/scheduledworkflow?docker.io/chongchuanbing/ml-pipeline.scheduledworkflow:dummy?"
+grep -rl "gcr.io/ml-pipeline/viewer-crd-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/viewer-crd-controller?docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:0.1.31?"
+grep -rl "gcr.io/ml-pipeline/viewer-crd-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/viewer-crd-controller?docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:0.2.5?"
+grep -rl "gcr.io/ml-pipeline/viewer-crd-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/viewer-crd-controller?docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:1.0.0?"
+grep -rl "gcr.io/ml-pipeline/viewer-crd-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/viewer-crd-controller?docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:dummy?"
+grep -rl "gcr.io/ml-pipeline/visualization-server" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/visualization-server?docker.io/chongchuanbing/ml-pipeline.visualization-server:0.2.5?"
+grep -rl "gcr.io/ml-pipeline/visualization-server" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/visualization-server?docker.io/chongchuanbing/ml-pipeline.visualization-server:1.0.0?"
+grep -rl "gcr.io/ml-pipeline/visualization-server" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/visualization-server?docker.io/chongchuanbing/ml-pipeline.visualization-server:dummy?"
+grep -rl "gcr.io/ml-pipeline/workflow-controller" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/ml-pipeline/workflow-controller?docker.io/chongchuanbing/ml-pipeline.workflow-controller:v2.7.5-license-compliance?"
+grep -rl "gcr.io/spark-operator/spark-operator" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/spark-operator/spark-operator?docker.io/chongchuanbing/spark-operator.spark-operator:v1beta2-1.1.0-2.4.5?"
+grep -rl "gcr.io/stackdriver-prometheus/stackdriver-prometheus" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/stackdriver-prometheus/stackdriver-prometheus?docker.io/chongchuanbing/stackdriver-prometheus.stackdriver-prometheus:release-0.4.2?"
+grep -rl "gcr.io/tekton-nightly/dashboard@sha256:e3e63e7a5e11a14927008cf61f6e6a1bfc36e9e13608e9c044570c162198f01d" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/tekton-nightly/dashboard@sha256:e3e63e7a5e11a14927008cf61f6e6a1bfc36e9e13608e9c044570c162198f01d?docker.io/chongchuanbing/stackdriver-prometheus.stackdriver-prometheus:release-0.4.2:lastest?"
+grep -rl "gcr.io/tekton-nightly/dashboard" .cache/manifests/manifests-1.1-branch | xargs sed -i "" "s?gcr.io/tekton-nightly/dashboard?docker.io/chongchuanbing/tekton-nightly.dashboard:lastest?"

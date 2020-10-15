@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: main
-        image: gcr.io/ml-pipeline/metadata-writer:dummy
+        image: docker.io/chongchuanbing/ml-pipeline.metadata-writer:dummy:dummy
         env:
         - name: NAMESPACE_TO_WATCH
           valueFrom:

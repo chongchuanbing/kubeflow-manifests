@@ -18,7 +18,7 @@ spec:
         configMap:
           name: ml-pipeline-ui-configmap
       containers:
-      - image: gcr.io/ml-pipeline/frontend:dummy
+      - image: docker.io/chongchuanbing/ml-pipeline.frontend:0.2.5:dummy
         imagePullPolicy: IfNotPresent
         name: ml-pipeline-ui
         ports:

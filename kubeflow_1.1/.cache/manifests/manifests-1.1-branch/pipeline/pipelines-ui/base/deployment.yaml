@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: ml-pipeline-ui
-        image: gcr.io/ml-pipeline/frontend
+        image: docker.io/chongchuanbing/ml-pipeline.frontend:0.2.5
         imagePullPolicy: IfNotPresent
         env:
         - name: ALLOW_CUSTOM_VISUALIZATIONS

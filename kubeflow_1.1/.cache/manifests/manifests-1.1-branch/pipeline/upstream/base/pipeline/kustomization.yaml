@@ -35,15 +35,15 @@ resources:
 - container-builder-sa.yaml
 - viewer-sa.yaml
 images:
-- name: gcr.io/ml-pipeline/api-server
+- name: docker.io/chongchuanbing/ml-pipeline.api-server:0.2.5
   newTag: 1.0.0
-- name: gcr.io/ml-pipeline/persistenceagent
+- name: docker.io/chongchuanbing/ml-pipeline.persistenceagent:0.2.5
   newTag: 1.0.0
-- name: gcr.io/ml-pipeline/scheduledworkflow
+- name: docker.io/chongchuanbing/ml-pipeline.scheduledworkflow:0.2.5
   newTag: 1.0.0
-- name: gcr.io/ml-pipeline/frontend
+- name: docker.io/chongchuanbing/ml-pipeline.frontend:0.2.5
   newTag: 1.0.0
-- name: gcr.io/ml-pipeline/viewer-crd-controller
+- name: docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:dummy
   newTag: 1.0.0
-- name: gcr.io/ml-pipeline/visualization-server
+- name: docker.io/chongchuanbing/ml-pipeline.visualization-server:0.2.5
   newTag: 1.0.0

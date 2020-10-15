@@ -20,8 +20,8 @@ commonLabels:
   app: jupyter-web-app
   kustomize.component: jupyter-web-app
 images:
-- name: gcr.io/kubeflow-images-public/jupyter-web-app
-  newName: gcr.io/kubeflow-images-public/jupyter-web-app
+- name: docker.io/chongchuanbing/kubeflow-images-public.jupyter-web-app:v1.1.0-gd3377cbd
+  newName: docker.io/chongchuanbing/kubeflow-images-public.jupyter-web-app:v1.1.0-gd3377cbd
   newTag: v1.1.0-gd3377cbd
 # We need the name to be unique without the suffix because the original name is what
 # gets used with patches

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: container
-        image: gcr.io/ml-pipeline/metadata-envoy:dummy
+        image: docker.io/chongchuanbing/ml-pipeline.metadata-envoy:dummy:dummy
         ports:
         - name: md-envoy
           containerPort: 9090

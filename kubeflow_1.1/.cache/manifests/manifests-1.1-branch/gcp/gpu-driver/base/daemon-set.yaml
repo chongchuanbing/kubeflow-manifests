@@ -20,7 +20,7 @@ spec:
               - key: cloud.google.com/gke-accelerator
                 operator: Exists
       containers:
-      - image: gcr.io/google-containers/pause:2.0
+      - image: docker.io/chongchuanbing/google-containers.pause:2.0:2.0
         name: pause
       hostNetwork: true
       hostPID: true

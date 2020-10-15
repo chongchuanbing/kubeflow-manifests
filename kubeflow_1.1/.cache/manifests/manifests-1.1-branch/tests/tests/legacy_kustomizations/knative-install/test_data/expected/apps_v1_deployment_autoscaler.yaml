@@ -57,7 +57,7 @@ spec:
           value: config-observability
         - name: METRICS_DOMAIN
           value: knative.dev/serving
-        image: gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:998a405454832cda18a4bf956d26d610a2df2130a39b834b597a89a3153c8c15
+        image: docker.io/chongchuanbing/knative-releases.knative.dev.serving.cmd.autoscaler-hpa:lastest:lastest
         livenessProbe:
           httpGet:
             httpHeaders:

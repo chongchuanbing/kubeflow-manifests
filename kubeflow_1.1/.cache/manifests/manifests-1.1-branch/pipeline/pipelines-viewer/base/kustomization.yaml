@@ -11,6 +11,6 @@ resources:
 - deployment.yaml
 - service-account.yaml
 images:
-- name: gcr.io/ml-pipeline/viewer-crd-controller
+- name: docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:dummy
   newTag: 0.2.5
-  newName: gcr.io/ml-pipeline/viewer-crd-controller
+  newName: docker.io/chongchuanbing/ml-pipeline.viewer-crd-controller:dummy

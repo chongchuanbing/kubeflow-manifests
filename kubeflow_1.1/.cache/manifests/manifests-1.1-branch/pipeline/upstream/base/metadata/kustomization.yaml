@@ -7,5 +7,5 @@ resources:
 - metadata-envoy-deployment.yaml
 - metadata-envoy-service.yaml
 images:
-- name: gcr.io/ml-pipeline/metadata-envoy
+- name: docker.io/chongchuanbing/ml-pipeline.metadata-envoy:dummy
   newTag: 1.0.0
