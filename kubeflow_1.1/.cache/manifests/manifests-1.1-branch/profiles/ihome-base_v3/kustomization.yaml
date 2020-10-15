@@ -1,0 +1,29 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namePrefix: profiles-
+commonLabels:
+  kustomize.component: profiles
+images:
+- name: harbor.ihomefnt.com/ai/kubeflow-images-public.kfam
+  newName: harbor.ihomefnt.com/ai/kubeflow-images-public.kfam
+  newTag: v1.1.0-g9f3bfd00
+- name: harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller
+  newName: harbor.ihomefnt.com/ai/kubeflow-images-public.profile-controller
+  newTag: vmaster-g34aa47c2
+resources:
+- cluster-role-binding.yaml
+- crd.yaml
+- deployment.yaml
+- service.yaml
+- service-account.yaml
+- ../overlays/ihome-istio
+- ../overlays/ihome-application
+patchesStrategicMerge:
+- deployment_patch.yaml
+# We need the name to be unique without the suffix because the original name is what
+# gets used with patches
+configMapGenerator:
+- literals:
+  - admin=
+  - gcp-sa=
+  name: profiles-config

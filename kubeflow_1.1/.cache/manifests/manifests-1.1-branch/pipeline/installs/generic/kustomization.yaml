@@ -16,7 +16,7 @@ configMapGenerator:
   - params.env
 - name: pipeline-upstream-install-config
   envs:
-  - ../../upstream/base/params.env
+  - new_params.env
 secretGenerator:
 - name: mysql-secret
   envs:

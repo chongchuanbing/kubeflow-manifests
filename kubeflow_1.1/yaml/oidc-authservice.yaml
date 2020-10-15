@@ -1,0 +1,210 @@
+apiVersion: v1
+data:
+  application_secret: pUBnBOY80SnXgjibTYM9ZWNzY2xreNGQok
+  client_id: kubeflow-oidc-authservice
+  namespace: istio-system
+  oidc_auth_url: /dex/auth
+  oidc_provider: http://dex.auth.svc.cluster.local:5556/dex
+  oidc_redirect_uri: /login/oidc
+  skip_auth_uri: /dex
+  userid-header: kubeflow-userid
+  userid-prefix: ""
+kind: ConfigMap
+metadata:
+  annotations: {}
+  labels:
+    app.kubernetes.io/component: oidc-authservice
+    app.kubernetes.io/name: oidc-authservice
+  name: oidc-authservice-parameters
+  namespace: istio-system
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app.kubernetes.io/component: oidc-authservice
+    app.kubernetes.io/name: oidc-authservice
+  name: authservice
+  namespace: istio-system
+spec:
+  ports:
+  - name: http-authservice
+    port: 8080
+    targetPort: http-api
+  publishNotReadyAddresses: true
+  selector:
+    app: authservice
+    app.kubernetes.io/component: oidc-authservice
+    app.kubernetes.io/name: oidc-authservice
+  type: ClusterIP
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  labels:
+    app.kubernetes.io/component: oidc-authservice
+    app.kubernetes.io/name: oidc-authservice
+  name: authservice
+  namespace: istio-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: authservice
+      app.kubernetes.io/component: oidc-authservice
+      app.kubernetes.io/name: oidc-authservice
+  serviceName: authservice
+  template:
+    metadata:
+      annotations:
+        sidecar.istio.io/inject: "false"
+      labels:
+        app: authservice
+        app.kubernetes.io/component: oidc-authservice
+        app.kubernetes.io/name: oidc-authservice
+    spec:
+      containers:
+      - env:
+        - name: USERID_HEADER
+          value: kubeflow-userid
+        - name: USERID_PREFIX
+          value: ""
+        - name: USERID_CLAIM
+          value: email
+        - name: OIDC_PROVIDER
+          value: http://dex.auth.svc.cluster.local:5556/dex
+        - name: OIDC_AUTH_URL
+          value: /dex/auth
+        - name: OIDC_SCOPES
+          value: profile email groups
+        - name: REDIRECT_URL
+          value: /login/oidc
+        - name: SKIP_AUTH_URI
+          value: /dex
+        - name: PORT
+          value: "8080"
+        - name: CLIENT_ID
+          value: kubeflow-oidc-authservice
+        - name: CLIENT_SECRET
+          value: pUBnBOY80SnXgjibTYM9ZWNzY2xreNGQok
+        - name: STORE_PATH
+          value: /var/lib/authservice/data.db
+        image: harbor.ihomefnt.com/ai/arrikto.kubeflow.oidc-authservice:28c59ef
+        imagePullPolicy: Always
+        name: authservice
+        ports:
+        - containerPort: 8080
+          name: http-api
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8081
+        volumeMounts:
+        - mountPath: /var/lib/authservice
+          name: data
+      securityContext:
+        fsGroup: 111
+      volumes:
+      - name: data
+        persistentVolumeClaim:
+          claimName: authservice-pvc
+---
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  labels:
+    app.kubernetes.io/component: oidc-authservice
+    app.kubernetes.io/name: oidc-authservice
+  name: oidc-authservice
+  namespace: istio-system
+spec:
+  addOwnerRef: true
+  componentKinds:
+  - group: apps
+    kind: StatefulSet
+  - group: core
+    kind: Service
+  - group: core
+    kind: PersistentVolumeClaim
+  - group: networking.istio.io
+    kind: EnvoyFilter
+  descriptor:
+    description: Provides OIDC-based authentication for Kubeflow Applications, at
+      the Istio Gateway.
+    keywords:
+    - oidc
+    - authservice
+    - authentication
+    links:
+    - description: About
+      url: https://github.com/kubeflow/kubeflow/tree/master/components/oidc-authservice
+    - description: Docs
+      url: https://www.kubeflow.org/docs/started/k8s/kfctl-existing-arrikto
+    maintainers:
+    - email: yanniszark@arrikto.com
+      name: Yannis Zarkadas
+    owners:
+    - email: yanniszark@arrikto.com
+      name: Yannis Zarkadas
+    type: oidc-authservice
+    version: v1beta1
+  selector:
+    matchLabels:
+      app.kubernetes.io/component: oidc-authservice
+      app.kubernetes.io/instance: oidc-authservice-v0.7.0
+      app.kubernetes.io/managed-by: kfctl
+      app.kubernetes.io/name: oidc-authservice
+      app.kubernetes.io/part-of: kubeflow
+      app.kubernetes.io/version: v0.7.0
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  labels:
+    app.kubernetes.io/component: oidc-authservice
+    app.kubernetes.io/name: oidc-authservice
+  name: authn-filter
+  namespace: istio-system
+spec:
+  filters:
+  - filterConfig:
+      httpService:
+        authorizationRequest:
+          allowedHeaders:
+            patterns:
+            - exact: cookie
+            - exact: X-Auth-Token
+        authorizationResponse:
+          allowedUpstreamHeaders:
+            patterns:
+            - exact: kubeflow-userid
+        serverUri:
+          cluster: outbound|8080||authservice.istio-system.svc.cluster.local
+          failureModeAllow: false
+          timeout: 10s
+          uri: http://authservice.istio-system.svc.cluster.local
+      statusOnError:
+        code: GatewayTimeout
+    filterName: envoy.ext_authz
+    filterType: HTTP
+    insertPosition:
+      index: FIRST
+    listenerMatch:
+      listenerType: GATEWAY
+  workloadLabels:
+    istio: ingressgateway
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  labels:
+    app.kubernetes.io/component: oidc-authservice
+    app.kubernetes.io/name: oidc-authservice
+  name: authservice-pvc
+  namespace: istio-system
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi

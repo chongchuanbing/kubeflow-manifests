@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: kubeflow
+resources:
+  - ../../katib-controller/ihome-katib-mysql-base
+images:
+  - name: mysql
+    newTag: "8"
+    newName: mysql
+commonLabels:
+  app.kubernetes.io/component: katib
+  app.kubernetes.io/name: katib-controller

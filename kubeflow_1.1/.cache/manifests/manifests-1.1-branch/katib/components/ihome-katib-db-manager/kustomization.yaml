@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: kubeflow
+resources:
+  - ../../katib-controller/ihome-katib-db-base
+images:
+  - name: harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.katib-db-manager
+    newTag: 917164a
+    newName: harbor.ihomefnt.com/ai/kubeflow-images-public.katib.v1alpha3.katib-db-manager
+commonLabels:
+  app.kubernetes.io/component: katib
+  app.kubernetes.io/name: katib-controller
