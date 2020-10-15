@@ -1,0 +1,29 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../.cache/manifests/manifests-1.1-branch/stacks/kubernetes
+images:
+  - name: gcr.io/kubeflow-images-public/admission-webhook
+    newName: gcr.io/kubeflow-images-public/admission-webhook
+    newTag: v1.1.0-g3ac3d08b
+  - name: gcr.io/kubeflow-images-public/centraldashboard
+    newName: gcr.io/kubeflow-images-public/centraldashboard
+    newTag: v1.1.0-g35d7484a
+  - name: gcr.io/kubeflow-images-public/jupyter-web-app
+    newName: gcr.io/kubeflow-images-public/jupyter-web-app
+    newTag: v1.1.0-gd3377cbd
+  - name: gcr.io/kubeflow-images-public/notebook-controller
+    newName: gcr.io/kubeflow-images-public/notebook-controller
+    newTag: v1.1.0-gd3377cbd
+  - name: gcr.io/kubeflow-images-public/kfam
+    newName: gcr.io/kubeflow-images-public/kfam
+    newTag: v1.1.0-g9f3bfd00
+  - name: gcr.io/kubeflow-images-public/profile-controller
+    newName: gcr.io/kubeflow-images-public/profile-controller
+    newTag: v1.1.0-ga49f658f
+  - name: gcr.io/kubeflow-images-public/pytorch-operator
+    newName: gcr.io/kubeflow-images-public/pytorch-operator
+    newTag: v1.1.0-gd596e904
+  - name: gcr.io/kubeflow-images-public/tf_operator
+    newName: gcr.io/kubeflow-images-public/tf_operator
+    newTag: v1.1.0-g92389064
