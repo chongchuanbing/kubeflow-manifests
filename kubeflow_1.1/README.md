@@ -1,5 +1,16 @@
 # kubeflow-manifests
 
+###目录介绍
+```
+ -- kubeflow_1.1
+ ---- .cache                    kfctl build后下载解压的kubeflow manifests
+ ---- kustomize                 kustomize build后生成的
+ ---- kustomize_v3_support      kustomize v3兼容性修改的
+ ---- yaml                      最后生成的kubeflow部署的yaml
+ ---- image_deal.py             
+ ---- image_list
+ ---- 
+```
 
 ### 工具下载
 
@@ -14,6 +25,33 @@ https://raw.githubusercontent.com/kubeflow/manifests/v1.1-branch/kfdef/kfctl_ist
 
 - kfctl_k8s_istio下载
 https://github.com/kubeflow/manifests/blob/master/kfdef/kfctl_k8s_istio.yaml
+
+- kubeflow manifests
+https://github.com/kubeflow/manifests/archive/v1.1.0.tar.gz
+    
+#### 版本介绍
+| 版本 | 说明 |
+| --- | --- |
+| kfctl_istio_dex.v1.1.0.yaml | 多租户授权版 |
+| kfctl_k8s_istio.v1.1.0.yaml | 单用户版 |
+    
+#### build
+> * 会先下载 yaml中配置的kubeflow manifests压缩包
+> * 解压到当前目录下 .cache 目录下
+
+> * 如果自行下载压缩包，请修改 kfctl_istio_dex.v1.1.0.yaml 中的manifests url为 file:///{your path}/v1.0.2.tar.gz
+> * 如果自行下载并解压了，请修改 kfctl_istio_dex.v1.1.0.yaml,在最后添加
+    
+    ```
+    status:
+      reposCache:
+      - localPath: '"{你的解压路径}"'
+        name: manifests
+    ```
+
+```
+./kfctl_mac build -V -f kfctl_istio_dex.v1.1.0.yaml
+```
     
 #### 找出镜像列表    
 ```
@@ -22,7 +60,7 @@ grep -o -h -R -E 'gcr.io/[a-zA-Z0-9./_@-]+:[a-zA-Z0-9./_-]+' .cache | uniq |sort
 
 #### kustomize3 兼容性问题
 ```
-参考 https://github.com/kubeflow/pipelines/pull/4785
+cp -r -f ./kustomize_v3_support/ .cache/
 ```
 
 #### 镜像处理

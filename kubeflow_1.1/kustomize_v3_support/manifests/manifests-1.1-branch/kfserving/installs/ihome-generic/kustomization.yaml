@@ -1,0 +1,36 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: kubeflow
+resources:
+- ../../kfserving-crds/base
+- ../../kfserving-crds/overlays/application
+- ../../kfserving-install/ihome
+- ../../kfserving-install/overlays/application
+commonLabels:
+  app: kfserving
+  kustomize.component: kfserving
+  app.kubernetes.io/component: kfserving-install
+  app.kubernetes.io/name: kfserving-install  
+generatorOptions:
+ disableNameSuffixHash: true
+configMapGenerator:
+- envs:
+  - params.env
+  name: kfserving-config
+vars:
+- name: registry
+  objref:
+    kind: ConfigMap
+    name: kfserving-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.registry
+configurations:
+- params.yaml
+images:
+- name: harbor.ihomefnt.com/ai/kubebuilder.kube-rbac-proxy
+  newName: harbor.ihomefnt.com/ai/kubebuilder.kube-rbac-proxy
+  newTag: v0.4.0
+- name: $(registry)/kfserving-controller
+  newName: $(registry)/kfserving-controller
+  newTag: v0.3.0
