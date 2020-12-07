@@ -20,9 +20,9 @@ https://github.com/kubeflow/manifests/blob/master/kfdef/kfctl_k8s_istio.yaml
 grep -o -h -R -E 'gcr.io/[a-zA-Z0-9./_@-]+:[a-zA-Z0-9./_-]+' .cache | uniq |sort -u > 'images_list'
 ```
 
-#### 替换ihome特性配置，主要解决kustomize3支持有点问题
+#### kustomize3 兼容性问题
 ```
-cp -r -f ./ihome_change/ .cache/
+参考 https://github.com/kubeflow/pipelines/pull/4785
 ```
 
 #### 镜像处理
